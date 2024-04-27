@@ -1,0 +1,12 @@
+.hero {
+  background-image: url('https://i.pinimg.com/originals/96/7f/fb/967ffb7ed0ad840693d5b881d36b35a2.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+}
