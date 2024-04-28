@@ -1,16 +1,16 @@
 import { useState } from 'react'
 import './Skills.css'
+import * as Icons from './SkillsIcons';
 
-function Skill({ title, description, software }) {
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faBrain, faCode, faDatabase, faRobot } from '@fortawesome/free-solid-svg-icons';
+
+function Skill({ title, description, software, icon }) {
     return (
         <div className="skill">
-            <h3>{title}</h3>
+            <h3><FontAwesomeIcon icon={icon} /> {title}</h3>
             <p>{description}</p>
-            <ul>
-                {software.map((item, index) => (
-                    <li key={index}>{item}</li>
-                ))}
-            </ul>
+            {software}
         </div>
     )
 }
@@ -20,30 +20,35 @@ function Skills() {
 
     return (
         <div className="Skills-section">
-            <h1>Skills</h1>
+            <h1 className="centered-title">Skills</h1>
             <div className="skills">
                 <div className="top-skills">
                     <Skill
                         title="Data Analyst"
-                        description="Proficient in Python for data manipulation and analysis, utilizing libraries such as Pandas and NumPy. Experienced in R for statistical computing and visualization. Skilled in SAS for data management and statistical analysis. Proficient in creating interactive dashboards and reports using Power BI and Tableau. Advanced user of Excel for data cleaning, analysis, and visualization. Strong command of SQL for database querying and manipulation."
-                        software={["Python", "Pandas", "Plotly", "R", "SAS", "Powe BI", "Tableau","Excel", "SQL"]}
+                        description="Proficient in Python and R for data analysis, with strong statistical skills. Experienced in creating interactive dashboards and reports. Skilled in data management and visualization using various tools including Excel. Strong command of SQL for database querying."
+                        software={[<Icons.PythonIcon />, <Icons.PandasIcon />, <Icons.PlotlyIcon />, <Icons.RIcon />, <Icons.SasIcon />, <Icons.PowerBiIcon />, <Icons.TableuIcon />, <Icons.ExcelIcon />, <Icons.SqlIcon />,]}
+                        icon={faDatabase}
                     />
                     <Skill
                         title="Data Scientist"
-                        description="Proficient in Python for data manipulation and machine learning tasks, leveraging libraries such as Scikit-learn for supervised regression, supervised classification, and unsupervised learning techniques. Experienced in deep learning frameworks including PyTorch and TensorFlow for building and deploying neural network models. Skilled in computer vision tasks using OpenCV for image processing and analysis. Proficient in leveraging state-of-the-art NLP models and frameworks such as Transformers (Hugging Face) for tasks like text classification, named entity recognition, and language translation."
-                        software={["Python", "Scikit-learn", "PyTorch", "TensorFlow", "OpenCV","Hugging Face"]}
+                        description="Skilled in Python for data manipulation and machine learning, utilizing Scikit-learn for various tasks. Experienced in deep learning with PyTorch and TensorFlow. Proficient in computer vision using OpenCV. Knowledgeable in advanced NLP techniques with frameworks like Transformers."
+                        software={[<Icons.PythonIcon />, <Icons.ScikitIcon />, <Icons.TensorFlowIcon />, <Icons.OpenCVIcon />, <Icons.HuggingFaceIcon />]}
+                        icon={faRobot}
                     />
                     <Skill
-                        title="AI Engineer"
-                        description="Proficient in Python for developing AI solutions, with expertise in building APIs using FastAPI for efficient model deployment. Experienced in cloud platforms such as AWS, Google Cloud, and Azure for scalable and reliable AI infrastructure deployment. Skilled in containerization using Docker for packaging and deploying AI applications in a portable and reproducible manner. Proficient in leveraging OpenAI's technologies for advanced AI research and development."
-                        software={["Python", "Fast API", "AWS", "Google Cloud", "Azure", "Docker", "OpenAI"]}
+                        title="AI Egnineer"
+                        description="Skilled in Python for AI development, specializing in FastAPI for API creation. Experienced in deploying AI on AWS, Google Cloud, and Azure. Proficient in Docker for portable AI applications. Experienced in leveraging OpenAI for advanced research."
+                        software={[<Icons.PythonIcon />, <Icons.FastAPIIcon />, <Icons.AwsIcon />, <Icons.AzureIcon />, <Icons.GCPIcon />, <Icons.DockerIcon />, <Icons.OpenAiIcon />]}
+                        icon={faBrain}
                     />
                 </div>
                 <div className='bottom-skills'>
-                    <Skill
-                        title="Full Stack Developer"
-                        description="Proficient in front-end technologies including HTML, CSS, and JavaScript, with intermediate expertise in building dynamic and responsive user interfaces using React. Skilled in creating engaging and interactive web applications with a focus on user experience and interface design. Experienced in full stack development, with the ability to integrate front-end components with back-end systems to deliver end-to-end solutions. Comfortable working with RESTful APIs and asynchronous programming concepts."
-                        software={["html", "css", "javascript", "React", "RESTful APIs"]}
+                <Skill
+                        title="Full-Stack Developer"
+                        description="
+                        Skilled in HTML, CSS, and JavaScript, with React expertise for dynamic interfaces. Experienced in full stack development, prioritizing user-centric web applications and seamless integration of front-end and back-end systems. Comfortable with RESTful APIs and asynchronous programming."
+                        software={[<Icons.htmlIcon />, <Icons.cssIcon />, <Icons.jsIcon />, <Icons.ReactIcon />]}
+                        icon={faCode}
                     />
                 </div>
             </div>
