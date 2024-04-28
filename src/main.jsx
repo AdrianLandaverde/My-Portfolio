@@ -6,6 +6,7 @@ import Experiences from './Experiences.jsx'
 import AboutMe from './AboutMe.jsx'
 import Projects from './Projects.jsx'
 import Courses from './Courses.jsx'
+import Achievements from './Achievements.jsx'
 import './main.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
@@ -16,5 +17,6 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <Skills />
     <Projects/>
     <Courses />
+    <Achievements />
   </React.StrictMode>,
 )
