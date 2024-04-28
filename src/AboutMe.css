@@ -1,0 +1,41 @@
+@font-face {
+    font-family: 'Cooper Hewitt';
+    src: url('./assets/fonts/cooper-hewitt.light.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Pine Forest';
+    src: url('./assets/fonts/Pine Forest.otf') format('opentype');
+}
+
+.about-me {
+    background-color: #10191E;
+    padding-top: 20px;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-bottom: 20px;
+    width: 100vw;
+    color: whitesmoke;
+    font-family: 'Cooper Hewitt', sans-serif;
+}
+
+.about-me h1 {
+    font-size: 2.5em;
+    font-family: 'Pine Forest', sans-serif;
+    color: #f0f0f0;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.rounded-image {
+    border-radius: 10px;
+    object-fit: cover;
+    height: 100%;
+    max-width: 100%;
+    width: 400px;
+}
