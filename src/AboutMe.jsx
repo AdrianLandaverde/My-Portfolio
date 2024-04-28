@@ -30,7 +30,7 @@ function AboutMe() {
                         Completed over 100 data science courses, including study abroad at Boston University.
                     </p>
                 </Col>
-                <Col xs={6} className="image-container">
+                <Col xs={6} className="me-image-container">
                     <img src="src/assets/images/about-me/me.jpg" alt="About me" className="img-fluid rounded-image" />
                 </Col>
             </Row>
