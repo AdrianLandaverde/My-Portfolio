@@ -22,7 +22,7 @@ function Achievements() {
     };
 
     return (
-        <div>
+        <div className='achievements-section'>
             <h1>Achievements</h1>
             <Masonry
                 breakpointCols={breakpointColumnsObj}
