@@ -1,5 +1,56 @@
+@font-face {
+    font-family: 'Cooper Hewitt';
+    src: url('./assets/fonts/cooper-hewitt.light.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Pine Forest';
+    src: url('./assets/fonts/Pine Forest.otf') format('opentype');
+}
+
 .experience-header {
     display: flex;
     justify-content: space-between;
     width: 100%;
+}
+
+.accordion .accordion-item {
+    border-radius: 10px !important;
+    background-color: #234836;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.accordion .accordion-header {
+    background-color: #234836;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.accordion .accordion-button {
+    background-color: #234836!important;
+    color: white !important;
+}
+
+.experiences-section {
+    background: linear-gradient(to bottom, #10191E, #092125);
+    padding-top: 20px;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-bottom: 20px;
+    width: 100vw;
+    color: whitesmoke;
+    font-family: 'Cooper Hewitt', sans-serif;
+}
+
+.centered-title {
+    text-align: center;
+    font-family: 'Pine Forest', sans-serif;
+    font-size: 4em;
+}
+
+.accordion {
+    padding-left: 200px;
+    padding-right: 200px;
 }

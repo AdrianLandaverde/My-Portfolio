@@ -40,7 +40,7 @@ function Experiences() {
             image: "https://media.licdn.com/dms/image/C4E0BAQGh-NZ8xK5lxQ/company-logo_200_200/0/1630643652741/arena_analytics_logo?e=2147483647&v=beta&t=gBvKz1GZ8FORdXeT3dOE0xOUVVuANL_LFcdCbaOqa6g",
             iconType: 'briefcase'
         },
-        
+
         {
             jobTitle: "Data Scientist Jr",
             companyName: "deep_dive",
@@ -49,7 +49,7 @@ function Experiences() {
             image: "https://wallpaperaccess.com/full/2969371.png",
             iconType: 'briefcase'
         },
-        
+
         {
             jobTitle: "Intern Consultant",
             companyName: "SAS",
@@ -58,7 +58,7 @@ function Experiences() {
             image: "https://logodix.com/logo/342329.png",
             iconType: 'briefcase'
         },
-    
+
         {
             jobTitle: "Semester Abroad",
             companyName: "Boston University",
@@ -67,7 +67,7 @@ function Experiences() {
             image: "https://wallpaperaccess.com/full/2969371.png",
             iconType: 'graduationCap'
         },
-    
+
         {
             jobTitle: "B.S. in Data Science and Mathematics Engineering",
             companyName: "Tec de Monterrey",
@@ -76,7 +76,7 @@ function Experiences() {
             image: "https://i.pinimg.com/originals/ee/83/7b/ee837b30f5cc5d0f4eafccbf0a29c16d.png",
             iconType: 'graduationCap'
         },
-    
+
         {
             jobTitle: "International Baccalaureate",
             companyName: "Tec de Monterrey",
@@ -89,8 +89,8 @@ function Experiences() {
 
 
     return (
-        <div>
-            <h1>Experiences</h1>
+        <div className='experiences-section'>
+            <h1 className="centered-title">Experiences</h1>
             <Accordion defaultActiveKey="0" flush>
                 {experiences.map((experience, index) => (
                     <Experience key={index} eventKey={index.toString()} jobTitle={experience.jobTitle} companyName={experience.companyName} timeline={experience.timeline} body={experience.body} image={experience.image} iconType={experience.iconType} />
