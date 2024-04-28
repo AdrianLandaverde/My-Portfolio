@@ -1,0 +1,33 @@
+.slider {
+    overflow: hidden;
+    height: 250px; /* Adjust based on the height of your images */
+}
+
+.slide-track {
+    display: flex;
+    animation: scroll 20s linear infinite;
+    width: calc(250px * 10); /* Adjust based on the number of images and their widths */
+}
+
+.slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    background-color: transparent; /* Change to your desired color */
+    width: 300px; /* Adjust based on the width of your images */
+    height: 250px;
+}
+
+.slide img {
+    width: 300px; /* Adjust based on the height of your images */
+    height: 250px;
+    object-fit: contain;
+    object-position: center;
+    padding: 0 ;
+}
+
+@keyframes scroll {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(calc(-300px * 10 - 10px*10)); } /* Adjust based on the number of images and their widths */
+}
