@@ -22,9 +22,10 @@ function Experience({ eventKey, jobTitle, companyName, timeline, body, image, ic
             </Accordion.Header>
             <Accordion.Body>
                 <Row>
-                    <Col xs={10}>{body}</Col>
-                    <Col xs={2}><img src={image} alt={companyName} className="img-fluid" /></Col>
-                </Row>
+                    <Col xs={12} md={10} >{body}</Col>
+                    <Col xs={12} md={2} className="d-flex justify-content-center align-items-center">
+                        <img src={image} alt={companyName} className="img-fluid" />
+                    </Col>                </Row>
             </Accordion.Body>
         </Accordion.Item>
     );

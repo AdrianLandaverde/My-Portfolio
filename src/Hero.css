@@ -55,3 +55,22 @@
   animation: fadeIn 5s ease-out forwards;
   animation-delay: 3s; /* Delay for h3 */
 }
+
+/* Responsive text */
+@media (max-width: 1200px) {
+  .hero h1 { font-size: 7rem; }
+  .hero h2 { font-size: 2rem; }
+  .hero h3 { font-size: 1.2rem; }
+}
+
+@media (max-width: 800px) {
+  .hero h1 { font-size: 5rem; }
+  .hero h2 { font-size: 1.8rem; }
+  .hero h3 { font-size: 1.1rem; }
+}
+
+@media (max-width: 500px) {
+  .hero h1 { font-size: 4rem; }
+  .hero h2 { font-size: 1.5rem; }
+  .hero h3 { font-size: 1rem; }
+}

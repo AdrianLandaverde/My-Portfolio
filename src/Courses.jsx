@@ -139,7 +139,7 @@ function Courses() {
 
             <h2>Data Visualization</h2>
             <div className="slider">
-                <div className="slide-track-viz" ref={sliderRef2}>
+                <div className="slide-track-viz" ref={sliderRef3}>
                     {data_viz_slides.map((slide, index) => (
                         <div className="slide" key={index} onMouseEnter={() => handleMouseEnter(sliderRef3)} onMouseLeave={() => handleMouseLeave(sliderRef3)}>
                             <img src={slide.src} alt={slide.alt} />
@@ -155,7 +155,7 @@ function Courses() {
 
             <h2>Applied Data Science</h2>
             <div className="slider">
-                <div className="slide-track-applied" ref={sliderRef2}>
+                <div className="slide-track-applied" ref={sliderRef4}>
                     {data_applied_slides.map((slide, index) => (
                         <div className="slide" key={index} onMouseEnter={() => handleMouseEnter(sliderRef4)} onMouseLeave={() => handleMouseLeave(sliderRef4)}>
                             <img src={slide.src} alt={slide.alt} />

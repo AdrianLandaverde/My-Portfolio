@@ -8,7 +8,7 @@ function AboutMe() {
     return (
         <div className="about-me">
             <Row className='about-me-row'>
-                <Col xs={6}>
+                <Col xs={12} md={6}>
                     <h1>HI I'M ADRIAN</h1>
                     <p>
                         Graduated in B.s. in Data Science and Mathematics at Tec de Monterrey. Passionate about solving real world problems using data science and AI.
@@ -30,7 +30,7 @@ function AboutMe() {
                         Completed over 100 data science courses, including study abroad at Boston University.
                     </p>
                 </Col>
-                <Col xs={6} className="me-image-container">
+                <Col xs={12} md={6} className="me-image-container">
                     <img src="src/assets/images/about-me/me.jpg" alt="About me" className="img-fluid rounded-image" />
                 </Col>
             </Row>

@@ -6,13 +6,13 @@ import './Projects.css';
 
 function ProjectCard({ project }) {
     return (
-        <Card className="mb-4 project-card">
-            <div className="image-container" onClick={() => window.open(project.link, "_blank")}>
+        <Card className="mb-2 project-card">
+            <div className="project-image-container" onClick={() => window.open(project.link, "_blank")}>
                 <Card.Img variant="top" src={project.image} />
                 <Card.Text className="project-description">{project.description}</Card.Text>
             </div>
             <Card.Body>
-                <Card.Title>{project.title}</Card.Title>
+                <Card.Title className="text-center mb-0 pb-0">{project.title}</Card.Title>
             </Card.Body>
         </Card>
     );

@@ -12,8 +12,8 @@
     font-family: 'Cooper Hewitt', sans-serif;
     background: linear-gradient(to bottom, #0C2A28, #11342E);
     padding-top: 20px;
-    padding-left: 150px;
-    padding-right: 150px;
+    padding-left: 10%;
+    padding-right: 10%;
     padding-bottom: 20px;
     color: whitesmoke;
 }
@@ -43,13 +43,13 @@ h1 {
     font-size: 4em;
 }
 
-.image-container {
+.project-image-container {
     position: relative;
     overflow: hidden;
     cursor: pointer;
 }
 
-.image-container::before {
+.project-image-container::before {
     content: "";
     position: absolute;
     top: 0;
@@ -61,7 +61,7 @@ h1 {
     transition: opacity 0.3s ease;
 }
 
-.image-container:hover::before {
+.project-image-container:hover::before {
     opacity: 1;
 }
 

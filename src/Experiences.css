@@ -36,8 +36,8 @@
 .experiences-section {
     background: linear-gradient(to bottom, #10191E, #092125);
     padding-top: 20px;
-    padding-left: 150px;
-    padding-right: 150px;
+    padding-left: 10%;
+    padding-right: 10%;
     padding-bottom: 20px;
     width: 100vw;
     color: whitesmoke;
@@ -48,9 +48,4 @@
     text-align: center;
     font-family: 'Pine Forest', sans-serif;
     font-size: 4em;
-}
-
-.accordion {
-    padding-left: 200px;
-    padding-right: 200px;
 }

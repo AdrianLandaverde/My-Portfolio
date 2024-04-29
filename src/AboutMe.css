@@ -10,10 +10,7 @@
 
 .about-me {
     background-color: #10191E;
-    padding-top: 20px;
-    padding-left: 150px;
-    padding-right: 150px;
-    padding-bottom: 20px;
+    padding: 20px 10%;
     width: 100vw;
     color: whitesmoke;
     font-family: 'Cooper Hewitt', sans-serif;
@@ -38,4 +35,20 @@
     height: 100%;
     max-width: 100%;
     width: 400px;
+}
+
+/* Responsive styles */
+@media (max-width: 1200px) {
+    .about-me h1 { font-size: 2em; }
+    .rounded-image { width: 350px; }
+}
+
+@media (max-width: 800px) {
+    .about-me h1 { font-size: 1.5em; }
+    .rounded-image { width: 300px; }
+}
+
+@media (max-width: 500px) {
+    .about-me h1 { font-size: 1.2em; }
+    .rounded-image { width: 250px; }
 }
