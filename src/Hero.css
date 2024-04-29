@@ -16,19 +16,42 @@
   src: url('./assets/fonts/Pine Forest.otf') format('opentype');
 }
 
+@font-face {
+  font-family: 'Nature Impact';
+  src: url('./assets/fonts/nature-impact-demo.regular.otf') format('opentype');
+}
+
+/* Fade-in animation */
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+
 .hero h1, .hero h2, .hero h3 {
-  font-family: 'Pine Forest', sans-serif;
-  color: whitesmoke;
+  opacity: 0; /* Set initial opacity to 0 */
 }
 
 .hero h1 {
-  font-size: 8rem;
+  font-family: 'Nature Impact', sans-serif;
+  color: whitesmoke;
+  margin-bottom: 50px;
+  font-size: 10rem;
+  animation: fadeIn 2s ease-out forwards;
 }
 
 .hero h2 {
+  font-family: 'Pine Forest', sans-serif;
+  color: whitesmoke;
   font-size: 3rem;
+  animation: fadeIn 3s ease-out forwards;
+  animation-delay: 2s; /* Delay for h2 */
 }
 
 .hero h3 {
+  font-family: 'Pine Forest', sans-serif;
+  color: whitesmoke;
   font-size: 2rem;
+  animation: fadeIn 5s ease-out forwards;
+  animation-delay: 3s; /* Delay for h3 */
 }
