@@ -3,16 +3,27 @@ import './Courses.css';
 
 function Courses() {
     const programming_slides = [
-        { src: "src/assets/images/courses/course1.jpeg", alt: "1" },
-        { src: "https://raw.githubusercontent.com/AdrianLandaverde/Portafolio-Adrian/main/assets/images/about/badgegoogle.png", alt: "1" },
-        { src: "src/assets/images/courses/course1.jpeg", alt: "1" },
-        { src: "src/assets/images/courses/course1.jpeg", alt: "1" },
-        { src: "src/assets/images/courses/course1.jpeg", alt: "1" },
-        { src: "https://raw.githubusercontent.com/AdrianLandaverde/Portafolio-Adrian/main/assets/images/about/badgegoogle.png", alt: "1" },
-        { src: "src/assets/images/courses/course1.jpeg", alt: "1" },
-        { src: "src/assets/images/courses/course1.jpeg", alt: "1" },
-        { src: "src/assets/images/courses/course1.jpeg", alt: "1" },
-        { src: "https://raw.githubusercontent.com/AdrianLandaverde/Portafolio-Adrian/main/assets/images/about/badgegoogle.png", alt: "1" }
+        { src: "src/assets/images/courses/programming_and_software/course1.png", alt: "course" },
+        { src: "src/assets/images/courses/programming_and_software/course2.jpeg", alt: "course" },
+        { src: "src/assets/images/courses/programming_and_software/course3.png", alt: "course" },
+        { src: "src/assets/images/courses/programming_and_software/course4.jpeg", alt: "course" },
+        { src: "src/assets/images/courses/programming_and_software/course5.jpeg", alt: "course" },
+        { src: "src/assets/images/courses/programming_and_software/course6.jpeg", alt: "course" },
+        { src: "src/assets/images/courses/programming_and_software/course7.jpeg", alt: "course" },
+        { src: "src/assets/images/courses/programming_and_software/course8.jpeg", alt: "course" },
+        { src: "src/assets/images/courses/programming_and_software/course9.jpeg", alt: "course" },
+        { src: "src/assets/images/courses/programming_and_software/course10.jpeg", alt: "course" },
+        { src: "src/assets/images/courses/programming_and_software/course11.png", alt: "course" },
+        { src: "src/assets/images/courses/programming_and_software/course12.png", alt: "course" },
+        { src: "src/assets/images/courses/programming_and_software/course13.png", alt: "course" },
+        { src: "src/assets/images/courses/programming_and_software/course14.png", alt: "course" },
+        { src: "src/assets/images/courses/programming_and_software/course15.jpeg", alt: "course" },
+        { src: "src/assets/images/courses/programming_and_software/course16.png", alt: "course" },
+        { src: "src/assets/images/courses/programming_and_software/course17.png", alt: "course" },
+        { src: "src/assets/images/courses/programming_and_software/course18.png", alt: "course" },
+        { src: "src/assets/images/courses/programming_and_software/course19.png", alt: "course" },
+        { src: "src/assets/images/courses/programming_and_software/course20.png", alt: "course" },
+        { src: "src/assets/images/courses/programming_and_software/course21.png", alt: "course" },
     ];
 
     const data_wrangling_slides = [

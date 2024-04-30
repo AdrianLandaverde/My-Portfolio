@@ -53,7 +53,7 @@
 
 .slide-track-programming {
     display: flex;
-    animation: scroll_programming 20s linear infinite;
+    animation: scroll_programming calc(2s * 21) linear infinite;
     width: calc(300px * 10); /* Adjust based on the number of images and their widths */
 }
 
@@ -114,7 +114,7 @@
 
 @keyframes scroll_programming {
     0% { transform: translateX(0); }
-    100% { transform: translateX(calc(-250px * 10 - (10px * 10))); }
+    100% { transform: translateX(calc(-250px * 21 - (10px * 21))); }
 }
 
 @keyframes scroll_wrangling {
