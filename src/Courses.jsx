@@ -63,14 +63,53 @@ function Courses() {
     ];
 
     const data_ml_slides = [
-        { src: "src/assets/images/courses/course1.jpeg", alt: "1" },
-        { src: "https://raw.githubusercontent.com/AdrianLandaverde/Portafolio-Adrian/main/assets/images/about/badgegoogle.png", alt: "1" },
-        { src: "src/assets/images/courses/course1.jpeg", alt: "1" },
-        { src: "src/assets/images/courses/course1.jpeg", alt: "1" },
-        { src: "src/assets/images/courses/course1.jpeg", alt: "1" },
-        { src: "https://raw.githubusercontent.com/AdrianLandaverde/Portafolio-Adrian/main/assets/images/about/badgegoogle.png", alt: "1" },
-        { src: "src/assets/images/courses/course1.jpeg", alt: "1" },
-        { src: "src/assets/images/courses/course1.jpeg", alt: "1" },
+        { src: 'src/assets/images/courses/data_science/crystal_course.png', alt: 'course_image' },
+        { src: 'src/assets/images/courses/data_science/feature_engineering.png', alt: 'course_image' },
+        { src: 'src/assets/images/courses/data_science/regular_expressions_in_python.png', alt: 'course_image' },
+        { src: 'src/assets/images/courses/data_science/python_time_Series.jpg', alt: 'course_image' },
+        { src: 'src/assets/images/courses/data_science/time_series.png', alt: 'course_image' },
+        { src: 'src/assets/images/courses/data_science/sas_forecasting.png', alt: 'course_image' },
+        { src: 'src/assets/images/courses/data_science/intro_to_ml.png', alt: 'course_image' },
+        { src: 'src/assets/images/courses/data_science/ml_onramp.png', alt: 'course_image' },
+        { src: 'src/assets/images/courses/data_science/maths_ml_linear_algebra.png', alt: 'course_image' },
+        { src: 'src/assets/images/courses/data_science/applied_ml.png', alt: 'course_image' },
+        { src: 'src/assets/images/courses/data_science/sas_data_mining.png', alt: 'course_image' },
+        { src: 'src/assets/images/courses/data_science/intermediate_ml.png', alt: 'course_image' },
+        { src: 'src/assets/images/courses/data_science/sas_text_analytics.png', alt: 'course_image' },
+        { src: 'src/assets/images/courses/data_science/text_mining.png', alt: 'course_image' },
+        { src: 'src/assets/images/courses/data_science/social_network_analysis.png', alt: 'course_image' },
+        { src: 'src/assets/images/courses/data_science/machine_learning_explainability.png', alt: 'course_image' },
+        
+        { src: 'src/assets/images/courses/data_science/sport_analytics_foundations.png', alt: 'course_image' },
+        { src: 'src/assets/images/courses/data_science/intro_to_clinical_data_science.png', alt: 'course_image' },
+        { src: 'src/assets/images/courses/data_science/intro_to_healthcare.png', alt: 'course_image' },
+        { src: 'src/assets/images/courses/data_science/ml_for_healthcare.png', alt: 'course_image' },
+        { src: 'src/assets/images/courses/data_science/intro_to_clinical_data.png', alt: 'course_image' },
+        { src: 'src/assets/images/courses/data_science/evaluations_of_ai_healthcare.png', alt: 'course_image' },
+        { src: 'src/assets/images/courses/data_science/ai_healthcare_capstone.png', alt: 'course_image' },
+
+        { src: 'src/assets/images/courses/data_science/computer_vision.png', alt: 'course_image' },
+        { src: 'src/assets/images/courses/data_science/computer_vision_onramp.png', alt: 'course_image' },
+        { src: 'src/assets/images/courses/data_science/opencv_bootcamp.png', alt: 'course_image' },
+
+        { src: 'src/assets/images/courses/data_science/deep_learning_fundamentals.png', alt: 'course_image' },
+        { src: 'src/assets/images/courses/data_science/sas_deep_learning.png', alt: 'course_image' },
+        { src: 'src/assets/images/courses/data_science/intro_to_deep_learning.png', alt: 'course_image' },
+        { src: 'src/assets/images/courses/data_science/deep_learning_onramp.png', alt: 'course_image' },
+        { src: 'src/assets/images/courses/data_science/start_tensorflow2.png', alt: 'course_image' },
+        { src: 'src/assets/images/courses/data_science/deep_learning_with_tensorflow.png', alt: 'course_image' },
+        { src: 'src/assets/images/courses/data_science/object_locatization_tensorflow.png', alt: 'course_image' },
+        { src: 'src/assets/images/courses/data_science/probabilistic_tensorflow2.png', alt: 'course_image' },
+        { src: 'src/assets/images/courses/data_science/customising_tensorflow2.png', alt: 'course_image' },
+        { src: 'src/assets/images/courses/data_science/accelerating_deep_learning.png', alt: 'course_image' },
+        
+        { src: 'src/assets/images/courses/data_science/intro_to_reinforcement_learning.png', alt: 'course_image' },
+        { src: 'src/assets/images/courses/data_science/reinforcement_learning_onramp.png', alt: 'course_image' },
+        
+        { src: 'src/assets/images/courses/data_science/intro_to_ai_ethics.png', alt: 'course_image' },
+        
+        { src: 'src/assets/images/courses/data_science/web_app_with_streamlit.png', alt: 'course_image' },
+
     ];
 
     const data_dl_slides = [
@@ -232,7 +271,7 @@ function Courses() {
                 </div>
             </div>
 
-            <h2>Applied Data Science</h2>
+            <h2>Data Science</h2>
             <div className="slider">
                 <div className="slide-track-applied" ref={sliderRef4}>
                     {data_applied_slides.map((slide, index) => (
