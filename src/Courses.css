@@ -84,7 +84,7 @@
 
 .slide-track-dl {
     display: flex;
-    animation: scroll_dl 20s linear infinite;
+    animation: scroll_dl calc(2s * 38) linear infinite;
     width: calc(300px * 10); /* Adjust based on the number of images and their widths */
 }
 
@@ -139,7 +139,7 @@
 
 @keyframes scroll_dl {
     0% { transform: translateX(0); }
-    100% { transform: translateX(calc(-250px * 8 - (10px * 8))); }
+    100% { transform: translateX(calc(-250px * 38 - (10px * 38))); }
 }
 
 @keyframes scroll_cloud {

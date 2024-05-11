@@ -74,42 +74,76 @@ function Courses() {
     ];
 
     const data_dl_slides = [
-        { src: "src/assets/images/courses/course1.jpeg", alt: "1" },
-        { src: "https://raw.githubusercontent.com/AdrianLandaverde/Portafolio-Adrian/main/assets/images/about/badgegoogle.png", alt: "1" },
-        { src: "src/assets/images/courses/course1.jpeg", alt: "1" },
-        { src: "src/assets/images/courses/course1.jpeg", alt: "1" },
-        { src: "src/assets/images/courses/course1.jpeg", alt: "1" },
-        { src: "https://raw.githubusercontent.com/AdrianLandaverde/Portafolio-Adrian/main/assets/images/about/badgegoogle.png", alt: "1" },
-        { src: "src/assets/images/courses/course1.jpeg", alt: "1" },
-        { src: "src/assets/images/courses/course1.jpeg", alt: "1" },
+        { src: 'src/assets/images/courses/data_analysis/google_formula_preguntas.png', alt: 'course_image' },
+        { src: 'src/assets/images/courses/data_analysis/intro_to_programming.png', alt: 'course_image' },
+        { src: 'src/assets/images/courses/data_analysis/google_datos_en_todas_partes.png', alt: 'course_image' },
+        { src: 'src/assets/images/courses/data_analysis/python.png', alt: 'course_image' },
+        { src: 'src/assets/images/courses/data_analysis/introduction_to_data_science_python.png', alt: 'course_image' },
+        { src: 'src/assets/images/courses/data_analysis/google_programacion_en_r.png', alt: 'course_image' },
+        { src: 'src/assets/images/courses/data_analysis/matlab_onramp.png', alt: 'course_image' },
+        { src: 'src/assets/images/courses/data_analysis/simulink_onramp.png', alt: 'course_image' },
+
+        { src: 'src/assets/images/courses/data_analysis/pandas.png', alt: 'course_image' },
+        { src: 'src/assets/images/courses/data_analysis/google_datos_para_exploracion.png', alt: 'course_image' },
+        { src: 'src/assets/images/courses/data_analysis/data_cleaning.png', alt: 'course_image' },
+        { src: 'src/assets/images/courses/data_analysis/google_datos_limpios.png', alt: 'course_image' },
+        { src: 'src/assets/images/courses/data_analysis/applied_data_science_with_r.png', alt: 'course_image' },
+        { src: 'src/assets/images/courses/data_analysis/data_analysis_using_python.png', alt: 'course_image' },
+        { src: 'src/assets/images/courses/data_analysis/geospatial_analysis.png', alt: 'course_image' },
+        { src: 'src/assets/images/courses/data_analysis/google_analizar_datos.png', alt: 'course_image' },
+        { src: 'src/assets/images/courses/data_analysis/sas_programming_1.png', alt: 'course_image' },
+        { src: 'src/assets/images/courses/data_analysis/sas_programming_2.png', alt: 'course_image' },
+        { src: 'src/assets/images/courses/data_analysis/sas_flows_in_sas_viya.png', alt: 'course_image' },
+        { src: 'src/assets/images/courses/data_analysis/python_for_data_science.png', alt: 'course_image' },
+        { src: 'src/assets/images/courses/data_analysis/sas_statistics_1.png', alt: 'course_image' },
+        { src: 'src/assets/images/courses/data_analysis/sas_certified.png', alt: 'course_image' },
+        { src: 'src/assets/images/courses/data_analysis/google_curso_final.png', alt: 'course_image' },
+
+        { src: 'src/assets/images/courses/data_analysis/data_visualization.png', alt: 'course_image' },
+        { src: 'src/assets/images/courses/data_analysis/applied_plotting_charting_and_data_representation.png', alt: 'course_image' },
+        { src: 'src/assets/images/courses/data_analysis/data_visualization_using_python.png', alt: 'course_image' },
+        { src: 'src/assets/images/courses/data_analysis/data_visualization_with_r.png', alt: 'course_image' },
+        { src: 'src/assets/images/courses/data_analysis/google_arte_de_visualizacion.png', alt: 'course_image' },
+        { src: 'src/assets/images/courses/data_analysis/excel_y_powerbi.jpg', alt: 'course_image' },
+        { src: 'src/assets/images/courses/data_analysis/dashboards_with_plotly.jpg', alt: 'course_image' },
+        { src: 'src/assets/images/courses/data_analysis/tableau_for_data_science.jpg', alt: 'course_image' },
+
+        { src: 'src/assets/images/courses/data_analysis/relational_database_design.png', alt: 'course_image' },
+        { src: 'src/assets/images/courses/data_analysis/intro_to_sql.png', alt: 'course_image' },
+        { src: 'src/assets/images/courses/data_analysis/sas_sql_1.png', alt: 'course_image' },
+        { src: 'src/assets/images/courses/data_analysis/r_with_databases.png', alt: 'course_image' },
+        { src: 'src/assets/images/courses/data_analysis/sql.png', alt: 'course_image' },
+        { src: 'src/assets/images/courses/data_analysis/advanced_sql.png', alt: 'course_image' },
+        { src: 'src/assets/images/courses/data_analysis/advanced_topics_in_databases.png', alt: 'course_image' },
+
     ];
 
     const data_cloud_slides = [
-        { src:  'src/assets/images/courses/ai_engineer/art_of_prompt_engineering.png' , alt: 'course_image' },
-        { src:  'src/assets/images/courses/ai_engineer/big_data_101.png' , alt: 'course_image' },
-        { src:  'src/assets/images/courses/ai_engineer/aws_cloud_foundations.png' , alt: 'course_image' },
-        { src:  'src/assets/images/courses/ai_engineer/aws_data_analytics.png' , alt: 'course_image' },
-        { src:  'src/assets/images/courses/ai_engineer/microsoft-azure-fundamentals-describe-cloud-concepts.svg' , alt: 'course_image' },
-        { src:  'src/assets/images/courses/ai_engineer/azure_space.png' , alt: 'course_image' },
-        { src:  'src/assets/images/courses/ai_engineer/cloud_computing_foundations.png' , alt: 'course_image' },
-        { src:  'src/assets/images/courses/ai_engineer/python_for_mlops.png' , alt: 'course_image' },
-        { src:  'src/assets/images/courses/ai_engineer/docker_essentials.png' , alt: 'course_image' },
-        { src:  'src/assets/images/courses/ai_engineer/google_cloud_foundations_cloud.png' , alt: 'course_image' },
-        { src:  'src/assets/images/courses/ai_engineer/google_cloud_foundations_data.png' , alt: 'course_image' },
-        { src:  'src/assets/images/courses/ai_engineer/google_cloud_foundations_infrastructure.png' , alt: 'course_image' },
-        { src:  'src/assets/images/courses/ai_engineer/google_cloud_foundations_networking.png' , alt: 'course_image' },
-        { src:  'src/assets/images/courses/ai_engineer/sentiment_analysis_hugging_face.png' , alt: 'course_image' },
-        { src:  'src/assets/images/courses/ai_engineer/voice_assitant_watson.png' , alt: 'course_image' },
-        { src:  'src/assets/images/courses/ai_engineer/google_cloud_genai_attention_mechanism.png' , alt: 'course_image' },
-        { src:  'src/assets/images/courses/ai_engineer/google_cloud_genai_encoder_decoder.png' , alt: 'course_image' },
-        { src:  'src/assets/images/courses/ai_engineer/google_cloud_genai_genai_fundamentals.png' , alt: 'course_image' },
-        { src:  'src/assets/images/courses/ai_engineer/google_cloud_genai_genai_studio.png' , alt: 'course_image' },
-        { src:  'src/assets/images/courses/ai_engineer/google_cloud_genai_image_captioning.png' , alt: 'course_image' },
-        { src:  'src/assets/images/courses/ai_engineer/google_cloud_genai_image_generation.png' , alt: 'course_image' },
-        { src:  'src/assets/images/courses/ai_engineer/google_cloud_genai_intro_to_genai.png' , alt: 'course_image' },
-        { src:  'src/assets/images/courses/ai_engineer/google_cloud_genai_llms.png' , alt: 'course_image' },
-        { src:  'src/assets/images/courses/ai_engineer/google_cloud_genai_responsible_ai.png' , alt: 'course_image' },
-        { src:  'src/assets/images/courses/ai_engineer/google_cloud_genai_transformers.png' , alt: 'course_image' },
+        { src: 'src/assets/images/courses/ai_engineer/art_of_prompt_engineering.png', alt: 'course_image' },
+        { src: 'src/assets/images/courses/ai_engineer/big_data_101.png', alt: 'course_image' },
+        { src: 'src/assets/images/courses/ai_engineer/aws_cloud_foundations.png', alt: 'course_image' },
+        { src: 'src/assets/images/courses/ai_engineer/aws_data_analytics.png', alt: 'course_image' },
+        { src: 'src/assets/images/courses/ai_engineer/microsoft-azure-fundamentals-describe-cloud-concepts.svg', alt: 'course_image' },
+        { src: 'src/assets/images/courses/ai_engineer/azure_space.png', alt: 'course_image' },
+        { src: 'src/assets/images/courses/ai_engineer/cloud_computing_foundations.png', alt: 'course_image' },
+        { src: 'src/assets/images/courses/ai_engineer/python_for_mlops.png', alt: 'course_image' },
+        { src: 'src/assets/images/courses/ai_engineer/docker_essentials.png', alt: 'course_image' },
+        { src: 'src/assets/images/courses/ai_engineer/google_cloud_foundations_cloud.png', alt: 'course_image' },
+        { src: 'src/assets/images/courses/ai_engineer/google_cloud_foundations_data.png', alt: 'course_image' },
+        { src: 'src/assets/images/courses/ai_engineer/google_cloud_foundations_infrastructure.png', alt: 'course_image' },
+        { src: 'src/assets/images/courses/ai_engineer/google_cloud_foundations_networking.png', alt: 'course_image' },
+        { src: 'src/assets/images/courses/ai_engineer/sentiment_analysis_hugging_face.png', alt: 'course_image' },
+        { src: 'src/assets/images/courses/ai_engineer/voice_assitant_watson.png', alt: 'course_image' },
+        { src: 'src/assets/images/courses/ai_engineer/google_cloud_genai_attention_mechanism.png', alt: 'course_image' },
+        { src: 'src/assets/images/courses/ai_engineer/google_cloud_genai_encoder_decoder.png', alt: 'course_image' },
+        { src: 'src/assets/images/courses/ai_engineer/google_cloud_genai_genai_fundamentals.png', alt: 'course_image' },
+        { src: 'src/assets/images/courses/ai_engineer/google_cloud_genai_genai_studio.png', alt: 'course_image' },
+        { src: 'src/assets/images/courses/ai_engineer/google_cloud_genai_image_captioning.png', alt: 'course_image' },
+        { src: 'src/assets/images/courses/ai_engineer/google_cloud_genai_image_generation.png', alt: 'course_image' },
+        { src: 'src/assets/images/courses/ai_engineer/google_cloud_genai_intro_to_genai.png', alt: 'course_image' },
+        { src: 'src/assets/images/courses/ai_engineer/google_cloud_genai_llms.png', alt: 'course_image' },
+        { src: 'src/assets/images/courses/ai_engineer/google_cloud_genai_responsible_ai.png', alt: 'course_image' },
+        { src: 'src/assets/images/courses/ai_engineer/google_cloud_genai_transformers.png', alt: 'course_image' },
     ];
 
     const sliderRef1 = useRef(null);
@@ -230,7 +264,7 @@ function Courses() {
                 </div>
             </div>
 
-            <h2>Deep Learning</h2>
+            <h2>Data Analysis</h2>
             <div className="slider">
                 <div className="slide-track-dl" ref={sliderRef6}>
                     {data_dl_slides.map((slide, index) => (
