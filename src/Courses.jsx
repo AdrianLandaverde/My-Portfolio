@@ -85,14 +85,31 @@ function Courses() {
     ];
 
     const data_cloud_slides = [
-        { src: "src/assets/images/courses/course1.jpeg", alt: "1" },
-        { src: "https://raw.githubusercontent.com/AdrianLandaverde/Portafolio-Adrian/main/assets/images/about/badgegoogle.png", alt: "1" },
-        { src: "src/assets/images/courses/course1.jpeg", alt: "1" },
-        { src: "src/assets/images/courses/course1.jpeg", alt: "1" },
-        { src: "src/assets/images/courses/course1.jpeg", alt: "1" },
-        { src: "https://raw.githubusercontent.com/AdrianLandaverde/Portafolio-Adrian/main/assets/images/about/badgegoogle.png", alt: "1" },
-        { src: "src/assets/images/courses/course1.jpeg", alt: "1" },
-        { src: "src/assets/images/courses/course1.jpeg", alt: "1" },
+        { src:  'src/assets/images/courses/ai_engineer/art_of_prompt_engineering.png' , alt: 'course_image' },
+        { src:  'src/assets/images/courses/ai_engineer/big_data_101.png' , alt: 'course_image' },
+        { src:  'src/assets/images/courses/ai_engineer/aws_cloud_foundations.png' , alt: 'course_image' },
+        { src:  'src/assets/images/courses/ai_engineer/aws_data_analytics.png' , alt: 'course_image' },
+        { src:  'src/assets/images/courses/ai_engineer/microsoft-azure-fundamentals-describe-cloud-concepts.svg' , alt: 'course_image' },
+        { src:  'src/assets/images/courses/ai_engineer/azure_space.png' , alt: 'course_image' },
+        { src:  'src/assets/images/courses/ai_engineer/cloud_computing_foundations.png' , alt: 'course_image' },
+        { src:  'src/assets/images/courses/ai_engineer/python_for_mlops.png' , alt: 'course_image' },
+        { src:  'src/assets/images/courses/ai_engineer/docker_essentials.png' , alt: 'course_image' },
+        { src:  'src/assets/images/courses/ai_engineer/google_cloud_foundations_cloud.png' , alt: 'course_image' },
+        { src:  'src/assets/images/courses/ai_engineer/google_cloud_foundations_data.png' , alt: 'course_image' },
+        { src:  'src/assets/images/courses/ai_engineer/google_cloud_foundations_infrastructure.png' , alt: 'course_image' },
+        { src:  'src/assets/images/courses/ai_engineer/google_cloud_foundations_networking.png' , alt: 'course_image' },
+        { src:  'src/assets/images/courses/ai_engineer/sentiment_analysis_hugging_face.png' , alt: 'course_image' },
+        { src:  'src/assets/images/courses/ai_engineer/voice_assitant_watson.png' , alt: 'course_image' },
+        { src:  'src/assets/images/courses/ai_engineer/google_cloud_genai_attention_mechanism.png' , alt: 'course_image' },
+        { src:  'src/assets/images/courses/ai_engineer/google_cloud_genai_encoder_decoder.png' , alt: 'course_image' },
+        { src:  'src/assets/images/courses/ai_engineer/google_cloud_genai_genai_fundamentals.png' , alt: 'course_image' },
+        { src:  'src/assets/images/courses/ai_engineer/google_cloud_genai_genai_studio.png' , alt: 'course_image' },
+        { src:  'src/assets/images/courses/ai_engineer/google_cloud_genai_image_captioning.png' , alt: 'course_image' },
+        { src:  'src/assets/images/courses/ai_engineer/google_cloud_genai_image_generation.png' , alt: 'course_image' },
+        { src:  'src/assets/images/courses/ai_engineer/google_cloud_genai_intro_to_genai.png' , alt: 'course_image' },
+        { src:  'src/assets/images/courses/ai_engineer/google_cloud_genai_llms.png' , alt: 'course_image' },
+        { src:  'src/assets/images/courses/ai_engineer/google_cloud_genai_responsible_ai.png' , alt: 'course_image' },
+        { src:  'src/assets/images/courses/ai_engineer/google_cloud_genai_transformers.png' , alt: 'course_image' },
     ];
 
     const sliderRef1 = useRef(null);
@@ -168,7 +185,7 @@ function Courses() {
             <h2>Data Visualization</h2>
             <div className="slider">
                 <div className="slide-track-viz" ref={sliderRef3}>
-                {data_viz_slides.map((slide, index) => (
+                    {data_viz_slides.map((slide, index) => (
                         <div className="slide" key={index} onMouseEnter={() => handleMouseEnter(sliderRef3)} onMouseLeave={() => handleMouseLeave(sliderRef3)}>
                             <img src={slide.src} alt={slide.alt} onClick={() => openModal(slide.src)} />
                         </div>
@@ -184,7 +201,7 @@ function Courses() {
             <h2>Applied Data Science</h2>
             <div className="slider">
                 <div className="slide-track-applied" ref={sliderRef4}>
-                {data_applied_slides.map((slide, index) => (
+                    {data_applied_slides.map((slide, index) => (
                         <div className="slide" key={index} onMouseEnter={() => handleMouseEnter(sliderRef4)} onMouseLeave={() => handleMouseLeave(sliderRef4)}>
                             <img src={slide.src} alt={slide.alt} onClick={() => openModal(slide.src)} />
                         </div>
@@ -200,7 +217,7 @@ function Courses() {
             <h2>Machine Learning</h2>
             <div className="slider">
                 <div className="slide-track-ml" ref={sliderRef5}>
-                {data_ml_slides.map((slide, index) => (
+                    {data_ml_slides.map((slide, index) => (
                         <div className="slide" key={index} onMouseEnter={() => handleMouseEnter(sliderRef5)} onMouseLeave={() => handleMouseLeave(sliderRef5)}>
                             <img src={slide.src} alt={slide.alt} onClick={() => openModal(slide.src)} />
                         </div>
@@ -216,7 +233,7 @@ function Courses() {
             <h2>Deep Learning</h2>
             <div className="slider">
                 <div className="slide-track-dl" ref={sliderRef6}>
-                {data_dl_slides.map((slide, index) => (
+                    {data_dl_slides.map((slide, index) => (
                         <div className="slide" key={index} onMouseEnter={() => handleMouseEnter(sliderRef6)} onMouseLeave={() => handleMouseLeave(sliderRef6)}>
                             <img src={slide.src} alt={slide.alt} onClick={() => openModal(slide.src)} />
                         </div>
@@ -229,7 +246,7 @@ function Courses() {
                 </div>
             </div>
 
-            <h2>Cloud Computing</h2>
+            <h2>AI Engineer</h2>
             <div className="slider">
                 <div className="slide-track-cloud" ref={sliderRef7}>
                     {data_cloud_slides.map((slide, index) => (
@@ -244,7 +261,7 @@ function Courses() {
                     ))}
                 </div>
             </div>
-            
+
             <Modal
                 isOpen={modalIsOpen}
                 onRequestClose={closeModal}
