@@ -51,46 +51,27 @@
     background: linear-gradient(to left, #11342E, transparent);
 }
 
-.slide-track-programming {
+.slide-track-data_analysis {
     display: flex;
-    animation: scroll_programming calc(2s * 21) linear infinite;
+    animation: scroll_data_analysis calc(2s * 38) linear infinite;
     width: calc(300px * 10); /* Adjust based on the number of images and their widths */
 }
 
-
-.slide-track-wrangling {
+.slide-track-data_science {
     display: flex;
-    animation: scroll_wrangling 20s linear infinite;
+    animation: scroll_data_science calc(2s * 40) linear infinite;
     width: calc(300px * 10); /* Adjust based on the number of images and their widths */
 }
 
-.slide-track-viz {
+.slide-track-ai_engineer {
     display: flex;
-    animation: scroll_viz 20s linear infinite;
+    animation: scroll_ai_engineer calc(2s * 25) linear infinite;
     width: calc(300px * 10); /* Adjust based on the number of images and their widths */
 }
 
-.slide-track-applied {
+.slide-track-full_stack {
     display: flex;
-    animation: scroll_applied calc(2s * 8) linear infinite;
-    width: calc(300px * 10); /* Adjust based on the number of images and their widths */
-}
-
-.slide-track-ml {
-    display: flex;
-    animation: scroll_ml calc(2s * 40) linear infinite;
-    width: calc(300px * 10); /* Adjust based on the number of images and their widths */
-}
-
-.slide-track-dl {
-    display: flex;
-    animation: scroll_dl calc(2s * 38) linear infinite;
-    width: calc(300px * 10); /* Adjust based on the number of images and their widths */
-}
-
-.slide-track-cloud {
-    display: flex;
-    animation: scroll_cloud calc(2s * 25) linear infinite;
+    animation: scroll_full_stack calc(2s * 8) linear infinite;
     width: calc(300px * 10); /* Adjust based on the number of images and their widths */
 }
 
@@ -109,42 +90,28 @@
     height: 200px;
     object-fit: contain;
     object-position: center;
-    padding: 0 ;
+    padding: 0;
+    cursor: pointer;
 }
 
-@keyframes scroll_programming {
-    0% { transform: translateX(0); }
-    100% { transform: translateX(calc(-250px * 21 - (10px * 21))); }
-}
-
-@keyframes scroll_wrangling {
-    0% { transform: translateX(0); }
-    100% { transform: translateX(calc(-250px * 8 - (10px * 8))); }
-}
-
-@keyframes scroll_viz {
-    0% { transform: translateX(0); }
-    100% { transform: translateX(calc(-250px * 8 - (10px * 8))); }
-}
-
-@keyframes scroll_applied {
-    0% { transform: translateX(0); }
-    100% { transform: translateX(calc(-250px * 8 - (10px * 8))); }
-}
-
-@keyframes scroll_ml {
-    0% { transform: translateX(0); }
-    100% { transform: translateX(calc(-250px * 40 - (10px * 40))); }
-}
-
-@keyframes scroll_dl {
+@keyframes scroll_data_analysis {
     0% { transform: translateX(0); }
     100% { transform: translateX(calc(-250px * 38 - (10px * 38))); }
 }
 
-@keyframes scroll_cloud {
+@keyframes scroll_data_science {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(calc(-250px * 40 - (10px * 40))); }
+}
+
+@keyframes scroll_ai_engineer {
     0% { transform: translateX(0); }
     100% { transform: translateX(calc(-250px * 25 - (10px * 25))); }
+}
+
+@keyframes scroll_full_stack {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(calc(-250px * 8 - (10px * 8))); }
 }
 
 .modal-content {
