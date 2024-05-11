@@ -52,14 +52,15 @@ function Courses() {
     ];
 
     const data_applied_slides = [
-        { src: "src/assets/images/courses/course1.jpeg", alt: "1" },
-        { src: "https://raw.githubusercontent.com/AdrianLandaverde/Portafolio-Adrian/main/assets/images/about/badgegoogle.png", alt: "1" },
-        { src: "src/assets/images/courses/course1.jpeg", alt: "1" },
-        { src: "src/assets/images/courses/course1.jpeg", alt: "1" },
-        { src: "src/assets/images/courses/course1.jpeg", alt: "1" },
-        { src: "https://raw.githubusercontent.com/AdrianLandaverde/Portafolio-Adrian/main/assets/images/about/badgegoogle.png", alt: "1" },
-        { src: "src/assets/images/courses/course1.jpeg", alt: "1" },
-        { src: "src/assets/images/courses/course1.jpeg", alt: "1" },
+        { src: 'src/assets/images/courses/full_stack_developer/google_basicos_asistencia_tecnica.png', alt: 'course_image' },
+        { src: 'src/assets/images/courses/full_stack_developer/google_bits_bytes_redes.png', alt: 'course_image' },
+        { src: 'src/assets/images/courses/full_stack_developer/google_infraestructura_ti.png', alt: 'course_image' },
+        { src: 'src/assets/images/courses/full_stack_developer/google_seguridad_informatica.png', alt: 'course_image' },
+        { src: 'src/assets/images/courses/full_stack_developer/google_sistema_operativo.png', alt: 'course_image' },
+        { src: 'src/assets/images/courses/full_stack_developer/google_ti.png', alt: 'course_image' },
+        { src: 'src/assets/images/courses/full_stack_developer/cloud_computing.png', alt: 'course_image' },
+        { src: 'src/assets/images/courses/full_stack_developer/html_css_js.png', alt: 'course_image' },
+
     ];
 
     const data_ml_slides = [
@@ -79,7 +80,7 @@ function Courses() {
         { src: 'src/assets/images/courses/data_science/text_mining.png', alt: 'course_image' },
         { src: 'src/assets/images/courses/data_science/social_network_analysis.png', alt: 'course_image' },
         { src: 'src/assets/images/courses/data_science/machine_learning_explainability.png', alt: 'course_image' },
-        
+
         { src: 'src/assets/images/courses/data_science/sport_analytics_foundations.png', alt: 'course_image' },
         { src: 'src/assets/images/courses/data_science/intro_to_clinical_data_science.png', alt: 'course_image' },
         { src: 'src/assets/images/courses/data_science/intro_to_healthcare.png', alt: 'course_image' },
@@ -102,12 +103,12 @@ function Courses() {
         { src: 'src/assets/images/courses/data_science/probabilistic_tensorflow2.png', alt: 'course_image' },
         { src: 'src/assets/images/courses/data_science/customising_tensorflow2.png', alt: 'course_image' },
         { src: 'src/assets/images/courses/data_science/accelerating_deep_learning.png', alt: 'course_image' },
-        
+
         { src: 'src/assets/images/courses/data_science/intro_to_reinforcement_learning.png', alt: 'course_image' },
         { src: 'src/assets/images/courses/data_science/reinforcement_learning_onramp.png', alt: 'course_image' },
-        
+
         { src: 'src/assets/images/courses/data_science/intro_to_ai_ethics.png', alt: 'course_image' },
-        
+
         { src: 'src/assets/images/courses/data_science/web_app_with_streamlit.png', alt: 'course_image' },
 
     ];
@@ -271,7 +272,7 @@ function Courses() {
                 </div>
             </div>
 
-            <h2>Data Science</h2>
+            <h2>Full-Stack Developer</h2>
             <div className="slider">
                 <div className="slide-track-applied" ref={sliderRef4}>
                     {data_applied_slides.map((slide, index) => (
@@ -287,7 +288,7 @@ function Courses() {
                 </div>
             </div>
 
-            <h2>Machine Learning</h2>
+            <h2>Data Science</h2>
             <div className="slider">
                 <div className="slide-track-ml" ref={sliderRef5}>
                     {data_ml_slides.map((slide, index) => (
