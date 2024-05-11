@@ -1,11 +1,11 @@
 @font-face {
     font-family: 'Cooper Hewitt';
-    src: url('./assets/fonts/cooper-hewitt.light.otf') format('opentype');
+    src: url('../assets/fonts/cooper-hewitt.light.otf') format('opentype');
 }
 
 @font-face {
     font-family: 'Pine Forest';
-    src: url('./assets/fonts/Pine Forest.otf') format('opentype');
+    src: url('../assets/fonts/Pine Forest.otf') format('opentype');
 }
 
 .projects-section {

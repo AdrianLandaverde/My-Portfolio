@@ -13,12 +13,12 @@
 
 @font-face {
   font-family: 'Pine Forest';
-  src: url('./assets/fonts/Pine Forest.otf') format('opentype');
+  src: url('../assets/fonts/Pine Forest.otf') format('opentype');
 }
 
 @font-face {
   font-family: 'Nature Impact';
-  src: url('./assets/fonts/nature-impact-demo.regular.otf') format('opentype');
+  src: url('../assets/fonts/nature-impact-demo.regular.otf') format('opentype');
 }
 
 /* Fade-in animation */
