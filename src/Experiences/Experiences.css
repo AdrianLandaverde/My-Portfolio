@@ -47,6 +47,26 @@
     padding: 30px;
 }
 
+.experience-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.experience-left, .experience-right {
+    width: 100%;
+}
+
+@media (min-width: 768px) {
+    .experience-body {
+        flex-direction: row;
+    }
+
+    .experience-left, .experience-right {
+        width: auto;
+    }
+}
+
 .experience-header .accordion-button.accordion-button:not(.collapsed) {
     background-color: #178426; /* Change to your preferred color */
     color: whitesmoke; /* Change to your preferred color */
