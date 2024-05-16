@@ -10,7 +10,7 @@
 
 .projects-section {
     font-family: 'Cooper Hewitt', sans-serif;
-    background: linear-gradient(to bottom, #0C2A28, #11342E);
+    background-color: #10191E;
     padding-top: 20px;
     padding-left: 10%;
     padding-right: 10%;
@@ -33,7 +33,7 @@
 }
 
 .project-card {
-    background-color: #234836;
+    background-color: #09434C;
     color: whitesmoke;
 }
 

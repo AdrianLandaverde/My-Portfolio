@@ -15,7 +15,7 @@
 }
 
 .experience-header {
-    background-color: #14641f;
+    background-color: #00726B;
     padding: 10px;
     border-radius: 10px;
 }
@@ -39,7 +39,7 @@
 }
 
 .experience-body {
-    background-color: #073115;
+    background-color: #09434C;
     margin-top: 20px;
     margin-bottom: 20px;
     padding: 10px;
@@ -68,7 +68,7 @@
 }
 
 .experience-header .accordion-button.accordion-button:not(.collapsed) {
-    background-color: #178426; /* Change to your preferred color */
+    background-color: #41A378; /* Change to your preferred color */
     color: whitesmoke; /* Change to your preferred color */
 }
 
@@ -81,7 +81,7 @@
 }
 
 .experiences-section {
-    background: linear-gradient(to bottom, #10191E, #092125);
+    background-color: #10191E;
     padding-top: 20px;
     padding-left: 10%;
     padding-right: 10%;
@@ -167,7 +167,7 @@
 .experience-skills button{
     margin-right: 10px;
     margin-bottom: 10px;
-    background-color: #209842;
+    background-color: #41A378;
     border: none;
     border-radius: 10px;
     padding: 5px 10px;
