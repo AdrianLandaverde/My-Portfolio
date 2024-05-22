@@ -6,34 +6,29 @@ import './AboutMe.css';
 
 function AboutMe() {
     return (
-        <div className="about-me">
-            <Row className='about-me-row'>
-                <Col xs={12} md={6}>
-                    <h1>HI I'M ADRIAN</h1>
+        <div className="about-me text-center">
+            <Row className='about-me-row justify-content-center'>
+                <Col xs={12} md={8}>
+                    <h1>Welcome, I'm Adrian!</h1>
                     <p>
-                        Graduated in B.s. in Data Science and Mathematics at Tec de Monterrey. Passionate about solving real world problems using data science and AI.
+                        I hold a B.S. in Data Science and Mathematics from Tec de Monterrey. I'm deeply passionate about leveraging data science and AI to solve real-world problems.
                     </p>
                     <p>
-                        Notable achievements:
-                    </p>
-                    <ul>
-                        <li>Second Place Place, Sustainable Innovation Track, Tree Hacks (Carbon Cut project)</li>
-                        <li>First Place, Sustainable Track and Best Use of Github, Boston Hacks (Sustainable AF project)</li>
-                        <li>First Place, IBM AI and the Physical World Challenge, HackMIT 2023 (Reflexion Buddy project)</li>
-                        <li>First Place, Safe Roads 2022 competition (Toronto Police Service, SAS, Geotab)</li>
-                        <li>First Place, 10K challenge, Data Science Hub, Tec de Monterrey</li>
-                    </ul>
-                    <p>
-                        Served as President of SAIDM, organizing courses to deepen Data Science understanding among peers.
+                        I have won multiple hackathons from various organizations such as Tec de Monterrey, Toronto Police Department, SAS, Boston, MIT, and Stanford; with projects related to sustainability, health, and finance.
                     </p>
                     <p>
-                        Completed over 100 data science courses, including study abroad at Boston University.
+                        As the former President of SAIDM, I organized courses to deepen the understanding of Data Science among my peers.
                     </p>
-                </Col>
-                <Col xs={12} md={6} className="me-image-container">
-                    <img src="src/assets/images/about-me/me.jpg" alt="About me" className="img-fluid rounded-image" />
+                    <p>
+                        I've completed over 100 data science courses, including a study abroad program at Boston University.
+                    </p>
+                    <div className="image-container-aboutme">
+                        <img src="src/assets/images/about-me/me2.jpg" alt="Adrian in the forest" className="centered-image" />
+                    </div>
                 </Col>
             </Row>
+
+
         </div>
     );
 }

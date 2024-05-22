@@ -22,33 +22,22 @@
     color: #f0f0f0;
 }
 
-.me-image-container {
+.about-me ul {
+    list-style-type: none;
+    margin-left: 20px;
+}
+
+.about-me ul li {
+    margin-bottom: 10px;
+}
+
+.image-container-aboutme {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100%;
 }
 
-.rounded-image {
-    border-radius: 10px;
-    object-fit: cover;
-    height: 100%;
-    max-width: 100%;
-    width: 400px;
-}
-
-/* Responsive styles */
-@media (max-width: 1200px) {
-    .about-me h1 { font-size: 2em; }
-    .rounded-image { width: 350px; }
-}
-
-@media (max-width: 800px) {
-    .about-me h1 { font-size: 1.5em; }
-    .rounded-image { width: 300px; }
-}
-
-@media (max-width: 500px) {
-    .about-me h1 { font-size: 1.2em; }
-    .rounded-image { width: 250px; }
+.centered-image {
+    max-width: 80%;
+    max-height: 100%;
 }
