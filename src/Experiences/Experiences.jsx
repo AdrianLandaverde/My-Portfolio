@@ -1,16 +1,16 @@
 import React from 'react';
 import Accordion from 'react-bootstrap/Accordion';
 import Button from 'react-bootstrap/Button';
-import { FaMapMarkerAlt, FaLink } from 'react-icons/fa';
+import { FaMapMarkerAlt, FaLink , FaBriefcase, FaGraduationCap} from 'react-icons/fa';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './Experiences.css';
 
-function Experience({ eventKey, jobTitle, companyName, timeline, body, location, url, skills, imageUrl }) {
+function Experience({ eventKey, jobTitle, companyName, timeline, body, location, url, skills, imageUrl, icon }) {
     return (
         <Accordion.Item eventKey={eventKey} className="experience-item">
             <Accordion.Header className="experience-header">
                 <div className="header-left">
-                    {jobTitle} @ {companyName}
+                    {icon} {jobTitle} @ {companyName}
                 </div>
                 <div className="header-right">
                     ({timeline})
@@ -47,7 +47,8 @@ function Experiences() {
             location: "Estado de México, México",
             url: "https://tec.mx/",
             skills: ["Mathematics", "Statistics", "Data Science" ,"Machine Learning", "HeroX", "EGS", "Spartan Race", "Hackathons", "Swimming", "Hiking", "Athletics"],
-            imageUrl: "src/assets/images/experiences/tec-de-monterrey.png"
+            imageUrl: "src/assets/images/experiences/tec-de-monterrey.png",
+            icon: <FaGraduationCap />
         },
 
         {
@@ -58,7 +59,8 @@ function Experiences() {
             location: "Mexico City, Mexico",
             url: "https://arena-analytics.com/",
             skills: ["Time Series", "Machine Learning", "Data Analytics", "Dashboards", "Azure Synape"],
-            imageUrl: "src/assets/images/experiences/arena.png"
+            imageUrl: "src/assets/images/experiences/arena.png",
+            icon: <FaBriefcase />
         },
         
         
@@ -70,7 +72,8 @@ function Experiences() {
             location: "Boston, USA",
             url: "https://www.bu.edu/",
             skills: ["Reinforcement Learning", "Applied ML", "Environmental Analysis", "Hiking", "Swimming", "Cycling", "Hackathons"],
-            imageUrl: "src/assets/images/experiences/bu.png"
+            imageUrl: "src/assets/images/experiences/bu.png",
+            icon: <FaGraduationCap />
         },
 
         {
@@ -81,7 +84,8 @@ function Experiences() {
             location: "Mexico City, México",
             url: "https://dive.ai/",
             skills: ["Natural Language Processing", "Data Engineering", "AWS", "Docker", "Machine Learning"],
-            imageUrl: "src/assets/images/experiences/deep_dive.png"
+            imageUrl: "src/assets/images/experiences/deep_dive.png",
+            icon: <FaBriefcase />
         },
 
         {
@@ -90,9 +94,10 @@ function Experiences() {
             timeline: "May 2022 - Nov 2022",
             body: "Embarked on an enriching internship experience as a consultant at SAS, where I applied classroom knowledge to real-world scenarios in the field of data analytics. Working closely with seasoned professionals, I gained hands-on experience in utilizing SAS software to analyze complex datasets, extract meaningful insights, and provide valuable recommendations to clients. This immersive role allowed me to refine my analytical skills, enhance my problem-solving abilities, and deepen my understanding of data-driven decision-making processes. My time as an intern consultant at SAS not only bolstered my technical expertise but also reinforced my passion for harnessing the power of data to drive innovation and inform strategic business decisions.",
             location: "Mexico City, México",
-            url: "https://www.bu.edu/",
+            url: "https://www.sas.com/es_mx/home.html",
             skills: ["SAS Programming", "SAS Viya", "Computer Vision", "Face Recognition"],
-            imageUrl: "src/assets/images/experiences/sas.png"
+            imageUrl: "src/assets/images/experiences/sas.png",
+            icon : <FaBriefcase />
         },
 
         {
@@ -103,7 +108,8 @@ function Experiences() {
             location: "Estado de México, México",
             url: "https://ibo.org/",
             skills: ["Computer Science SL", "Mathematics HL", "Biology SL", "Swimming", "Crossfit","EduCas", "Huellitas Verdes"],
-            imageUrl: "https://www.ibo.org/globalassets/new-structure/icons-and-logos/images/associations-of-ibws_en.png"
+            imageUrl: "https://www.ibo.org/globalassets/new-structure/icons-and-logos/images/associations-of-ibws_en.png",
+            icon: <FaGraduationCap />
         }
     ];
 
