@@ -20,7 +20,7 @@ function Skills() {
 
     return (
         <div className="Skills-section">
-            <h1 className="centered-title">Skills</h1>
+            <h1 className="centered-title">SKILLS</h1>
             <div className="skills">
                 <div className="top-skills row flex-column flex-md-row">
                     <Skill
@@ -33,7 +33,7 @@ function Skills() {
                     <Skill
                         title="Data Scientist"
                         description="Skilled in Python for data manipulation and machine learning, utilizing Scikit-learn for various tasks. Experienced in deep learning with PyTorch and TensorFlow. Proficient in computer vision using OpenCV. Knowledgeable in advanced NLP techniques with frameworks like Transformers."
-                        software={[<Icons.PythonIcon />, <Icons.ScikitIcon />, <Icons.TensorFlowIcon />, <Icons.OpenCVIcon />, <Icons.HuggingFaceIcon />]}
+                        software={[<Icons.PythonIcon />, <Icons.ScikitIcon />, <Icons.TensorFlowIcon />, <Icons.PytorchIcon />, <Icons.OpenCVIcon />, <Icons.HuggingFaceIcon />]}
                         icon={faRobot}
                         className="col-12 col-md-4"
                     />
