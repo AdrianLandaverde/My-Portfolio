@@ -10,7 +10,7 @@
 
 .achievements-section {
     font-family: 'Cooper Hewitt', sans-serif;
-    background-color: #10191E;
+    background-color: var(--background-color);
     padding-top: 20px;
     padding-left: 10%;
     padding-right: 10%;
@@ -40,9 +40,8 @@
 
 .image-container {
     position: relative;
-    border: 2px solid white;
+    border: 2px solid var(--primary-color);
     border-radius: 10px;
-    box-shadow: 0px 0px 2px white;
 }
 
 .image-overlay {

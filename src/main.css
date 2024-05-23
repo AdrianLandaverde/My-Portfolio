@@ -4,3 +4,12 @@ body{
     padding: 0;
     overflow-x: hidden;
 }
+
+:root {
+    --background-color: #100d36;
+    --primary-color: #211C6A;
+    --secondary-color: #59B4C3;
+    --tertiary-color: #74E291;
+    --quaternary-color: #EFF396;
+    --font-color: whitesmoke;
+}

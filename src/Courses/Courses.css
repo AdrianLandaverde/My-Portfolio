@@ -10,7 +10,7 @@
 
 .courses-section {
     font-family: 'Cooper Hewitt', sans-serif;
-    background-color: #10191E;
+    background-color: var(--background-color);
     padding-top: 20px;
     padding-bottom: 20px;
     padding-left: 10%;
@@ -43,12 +43,12 @@
 
 .slider::before {
     left: 0;
-    background: linear-gradient(to right, #10191E, transparent);
+    background: linear-gradient(to right, var(--background-color), transparent);
 }
 
 .slider::after {
     right: 0;
-    background: linear-gradient(to left, #10191E, transparent);
+    background: linear-gradient(to left, var(--background-color), transparent);
 }
 
 .slide-track-data_analysis {

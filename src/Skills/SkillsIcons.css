@@ -2,7 +2,7 @@
 .skill-icon svg {
     width: 30px; /* Adjust as needed */
     height: 30px; /* Adjust as needed */
-    fill: #2F4F4F; /* Adjust color as needed */
+    fill: var(--secondary-color); /* Adjust color as needed */
     transition: fill 0.3s ease-in-out; /* Transition effect for smooth color change */
     margin-left: 5px;
     margin-right: 5px;

@@ -7,8 +7,9 @@
     font-family: 'Nature Impact';
     src: url('../assets/fonts/nature-impact-demo.regular.otf') format('opentype');
 }
+
 .about-me-container {
-    background-color: #10191E;
+    background-color: var(--background-color);
     color: whitesmoke;
     padding-top: 10%;
     padding-left: 10%;
