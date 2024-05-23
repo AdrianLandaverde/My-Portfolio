@@ -1,34 +1,21 @@
 import React from 'react';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './AboutMe.css';
 
 function AboutMe() {
     return (
-        <div className="about-me text-center">
-            <Row className='about-me-row justify-content-center'>
-                <Col xs={12} md={8}>
-                    <h1>Welcome, I'm Adrian!</h1>
-                    <p>
-                        I hold a B.S. in Data Science and Mathematics from Tec de Monterrey. I'm deeply passionate about leveraging data science and AI to solve real-world problems.
-                    </p>
-                    <p>
-                        I have won multiple hackathons from various organizations such as Tec de Monterrey, Toronto Police Department, SAS, Boston, MIT, and Stanford; with projects related to sustainability, health, and finance.
-                    </p>
-                    <p>
-                        As the former President of SAIDM, I organized courses to deepen the understanding of Data Science among my peers.
-                    </p>
-                    <p>
-                        I've completed over 100 data science courses, including a study abroad program at Boston University.
-                    </p>
-                    <div className="image-container-aboutme">
-                        <img src="src/assets/images/about-me/me2.jpg" alt="Adrian in the forest" className="centered-image" />
-                    </div>
-                </Col>
-            </Row>
+        <div className='about-me-container'>
+            <h1 className='about-me-h1'>Hi, I'm Adrian</h1>
+            <div className='about-me-content'>
+                <div className='about-me-text'>
+                    <h2 className='about-me-h2'>Graduated as Data Scientist, with a lot of self-taught experience in Data Analysis, AI Engineering, and Full-Stack Developer</h2>
+                    <p> Graduated in Tec de Monterrey, I have overcame challenges in order to become the best version of myself, including leadership programs, high-endurance sport competitions, and won Hackathons at diverse international insititutions such as Tec de Monterrey, Police of Toronto, Boston, MIT, and Stanford</p>
+                </div>
 
-
+                <div className='about-me-image'>
+                    <img src="src/assets/images/about-me/me2.jpg" alt="Adrian's Profile" />
+                </div>
+            </div>
         </div>
     );
 }
