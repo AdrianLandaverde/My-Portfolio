@@ -4,14 +4,19 @@ import './Achievements.css';
 
 function Achievements() {
     const images = [
-    { src: "https://github.com/AdrianLandaverde/Portafolio-Adrian/blob/main/assets/images/achievements/bostonhacks.jpg?raw=true", alt: "Dummy Image", title: "Boston Hacks"  },
-    { src: "https://github.com/AdrianLandaverde/Portafolio-Adrian/blob/main/assets/images/achievements/spartan-ultra.jpg?raw=true", alt: "Dummy Image", title: "Spartan Ultra"  },
-    { src: "https://github.com/AdrianLandaverde/Portafolio-Adrian/blob/main/assets/images/achievements/hackmit.jpg?raw=true", alt: "Dummy Image", title: "Hack MIT"  },
-    { src: "https://github.com/AdrianLandaverde/Portafolio-Adrian/blob/main/assets/images/achievements/saferoads.jpg?raw=true", alt: "Dummy Image", title: "Safe Roads"  },
-    { src: "https://github.com/AdrianLandaverde/Portafolio-Adrian/blob/main/assets/images/achievements/Hero_race.jpg?raw=true", alt: "Dummy Image", title: "Hero Race"  },
-    { src: "https://github.com/AdrianLandaverde/Portafolio-Adrian/blob/main/assets/images/achievements/TriatlonEkzerco.jpeg?raw=true", alt: "Dummy Image", title: "Triatlon Ekzerco"  },
-    { src: "https://github.com/AdrianLandaverde/Portafolio-Adrian/blob/main/assets/images/achievements/trifecta2021.jpg?raw=true", alt: "Dummy Image", title: "Spartan Trifecta Weekend"  },
-    { src: "https://github.com/AdrianLandaverde/Portafolio-Adrian/blob/main/assets/images/achievements/10K_Challenge.jpg?raw=true", alt: "Dummy Image", title: "10K Challenge"  },
+    { src: "src/assets/images/achievements/boston_hacks.jpg", title: "Boston Hacks", alt: "Achivement Image"  },
+    { src: "src/assets/images/achievements/spartan_ultra.jpg", title: "Spartan Ultra", alt: "Achivement Image"  },
+    { src: "src/assets/images/achievements/hack_mit.jpg", title: "Hack MIT", alt: "Achivement Image"  },
+    { src: "src/assets/images/achievements/trifecta2021.jpg", title: "Trifecta Weekend 2021", alt: "Achivement Image"  },     
+    { src: "src/assets/images/achievements/sas_intern.jpg", title: "SAS Internship", alt: "Achivement Image"  },
+    { src: "src/assets/images/achievements/safe_roads.jpg", title: "Safe Roads", alt: "Achivement Image"  },
+    { src: "src/assets/images/achievements/crystal.jpg", title: "Crystal Systems Course", alt: "Achivement Image"  },
+    { src: "src/assets/images/achievements/tree_hacks.jpg", title: "Tree Hacks", alt: "Achivement Image"  },
+    { src: "src/assets/images/achievements/spartan_virtual.jpg", title: "Virtual Spartan Race", alt: "Achivement Image"  },
+    { src: "src/assets/images/achievements/hero_race.jpg", title: "The Hero Race", alt: "Achivement Image"  },
+    { src: "src/assets/images/achievements/10K_Challenge.jpg", title: "10K Challenge", alt: "Achivement Image"  },
+    { src: "src/assets/images/achievements/TriatlonEkzerco.jpeg", title: "Triatlon Ekzerco", alt: "Achivement Image"  }
+    ,
 ];
 
     const breakpointColumnsObj = {
