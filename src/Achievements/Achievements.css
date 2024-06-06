@@ -15,7 +15,7 @@
     padding-left: 10%;
     padding-right: 10%;
     padding-bottom: 20px;
-    color: whitesmoke;
+    color: var(--font-color);
 }
 
 .my-masonry-grid {
@@ -40,7 +40,7 @@
 
 .image-container {
     position: relative;
-    border: 2px solid var(--primary-color);
+    border: 2px solid var(--background-color);
     border-radius: 10px;
 }
 

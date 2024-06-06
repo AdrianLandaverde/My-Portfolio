@@ -38,7 +38,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    border: 2px dashed whitesmoke; /* Change this to the color you want */
+    border: 2px dashed var(--font-color); /* Change this to the color you want */
     border-radius: 10px; /* This will make the corners rounded */
     padding: 20px; /* Add some space between the border and the content */
     margin-bottom: 20px;
@@ -46,7 +46,7 @@
 
 .Skills-section {
     background-color: var(--background-color);
-    color: whitesmoke;
+    color: var(--font-color);
     padding-top: 20px;
     padding-left: 10%;
     padding-right: 10%;

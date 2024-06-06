@@ -10,7 +10,7 @@
 
 .about-me-container {
     background-color: var(--background-color);
-    color: whitesmoke;
+    color: var(--font-color);
     padding-top: 10%;
     padding-left: 10%;
     padding-right: 10%;
