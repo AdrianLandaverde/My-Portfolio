@@ -28,7 +28,8 @@
 
 .project-card {
     background-color: var(--primary-color);
-    color: var(--font-color);
+    color: var(--font-color-inv);
+    border: 0cm;
 }
 
 

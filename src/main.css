@@ -20,11 +20,12 @@
     --font-titles: 'Poppins';
     --font-text: 'Cooper Hewitt', sans-serif;
     --background-color: #ffffff;
-    --primary-color: #78C1F3;
-    --secondary-color: #9BE8D8;
-    --tertiary-color: #E2F6CA;
-    --quaternary-color: #F8FDCF;
+    --primary-color: #06283D;
+    --secondary-color: #1363DF;
+    --tertiary-color: #47B5FF;
+    --quaternary-color: #DFF6FF;
     --font-color: #333;
+    --font-color-inv: whitesmoke;
 }
 
 body {
@@ -36,7 +37,6 @@ body {
 
 *:not(h1) {
     font-family: var(--font-text);
-    color: var(--font-color);
 }
 
 h1{

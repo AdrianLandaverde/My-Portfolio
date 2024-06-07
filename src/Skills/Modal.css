@@ -19,8 +19,8 @@
 .modal-content {
     background: var(--primary-color) !important; /* Make sure this is a solid color */
     padding: 20px;
-    border-radius: 4px;
-    color: #fff; /* Add this if your text is not visible */
+    border-radius: 10px !important;
+    color: var(--font-color-inv) !important; /* Add this if your text is not visible */
 }
 
 .close-button {

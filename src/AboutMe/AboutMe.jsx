@@ -1,7 +1,7 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './AboutMe.css';
-import { FaLinkedin, FaInstagram, FaKaggle, FaEnvelope } from 'react-icons/fa';
+import { FaLinkedin, FaInstagram, FaKaggle, FaEnvelope, FaGithub } from 'react-icons/fa';
 import { SiDevpost } from 'react-icons/si';
 
 
@@ -20,10 +20,13 @@ function AboutMe() {
 
                 <div className='about-me-social'>
                     <a href="mailto:adrianlandaverden@gmail.com">
-                        <FaEnvelope className='social-icon' />
+                        <FaEnvelope className='social-icon' id='iconMail'/>
                     </a>
-                    <a href="https://www.linkedin.com/in/adrian-landaverde-nava/" target="_blank" rel="noopener noreferrer" id='iconLinkedin' >
+                    <a href="https://www.linkedin.com/in/adrian-landaverde-nava/" target="_blank" rel="noopener noreferrer" >
                         <FaLinkedin className='social-icon' id='iconLinkedin' />
+                    </a>
+                    <a href="https://github.com/AdrianLandaverde" target="_blank" rel="noopener noreferrer">
+                        <FaGithub className='social-icon' id='iconGithub' />
                     </a>
                     <a href="https://www.instagram.com/adrian_landaverde_01/" target="_blank" rel="noopener noreferrer">
                         <FaInstagram className='social-icon' id='iconInstagram' />
