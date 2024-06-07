@@ -12,14 +12,24 @@
 }
 
 @font-face {
+  font-family: 'Nature Impact';
+  src: url('../assets/fonts/nature-impact-demo.regular.otf') format('opentype');
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@font-face {
   font-family: 'Pine Forest';
   src: url('../assets/fonts/Pine Forest.otf') format('opentype');
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Jaro:opsz@6..72&display=swap');
+
 @font-face {
-  font-family: 'Nature Impact';
-  src: url('../assets/fonts/nature-impact-demo.regular.otf') format('opentype');
+  font-family: 'Cooper Hewitt';
+  src: url('../assets/fonts/cooper-hewitt.light.otf') format('opentype');
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
 
 /* Fade-in animation */
 @keyframes fadeIn {
@@ -33,7 +43,7 @@
 }
 
 .hero h1 {
-  font-family: 'Nature Impact', sans-serif;
+  font-family: var(--font-main);
   color: whitesmoke;
   margin-bottom: 50px;
   font-size: 10rem;
@@ -41,19 +51,19 @@
 }
 
 .hero h2 {
-  font-family: 'Pine Forest', sans-serif;
   color: whitesmoke;
   font-size: 3rem;
   animation: fadeIn 3s ease-out forwards;
   animation-delay: 2s; /* Delay for h2 */
+  font-family: var(--font-titles);
 }
 
 .hero h3 {
-  font-family: 'Pine Forest', sans-serif;
   color: whitesmoke;
   font-size: 2rem;
   animation: fadeIn 5s ease-out forwards;
   animation-delay: 3s; /* Delay for h3 */
+  font-family: var(--font-titles);
 }
 
 /* Responsive text */

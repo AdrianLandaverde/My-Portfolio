@@ -1,15 +1,3 @@
-@font-face {
-    font-family: 'Cooper Hewitt';
-    src: url('../assets/fonts/cooper-hewitt.light.otf') format('opentype');
-}
-
-@font-face {
-    font-family: 'Pine Forest';
-    src: url('../assets/fonts/Pine Forest.otf') format('opentype');
-}
-
-
-
 .skills {
     display: flex;
     flex-direction: column;
@@ -38,7 +26,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    border: 2px dashed whitesmoke; /* Change this to the color you want */
+    border: 2px dashed var(--font-color); /* Change this to the color you want */
     border-radius: 10px; /* This will make the corners rounded */
     padding: 20px; /* Add some space between the border and the content */
     margin-bottom: 20px;
@@ -46,12 +34,16 @@
 
 .Skills-section {
     background-color: var(--background-color);
-    color: whitesmoke;
+    color: var(--font-color);
     padding-top: 20px;
     padding-left: 10%;
     padding-right: 10%;
     padding-bottom: 20px;
-    font-family: 'Cooper Hewitt', sans-serif;
+}
+
+.Skills-section h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
 }
 
 .centered-title {

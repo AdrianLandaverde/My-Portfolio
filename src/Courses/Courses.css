@@ -1,21 +1,15 @@
-@font-face {
-    font-family: 'Cooper Hewitt';
-    src: url('../assets/fonts/cooper-hewitt.light.otf') format('opentype');
-}
-
-@font-face {
-    font-family: 'Pine Forest';
-    src: url('../assets/fonts/Pine Forest.otf') format('opentype');
-}
-
 .courses-section {
-    font-family: 'Cooper Hewitt', sans-serif;
     background-color: var(--background-color);
     padding-top: 20px;
     padding-bottom: 20px;
     padding-left: 10%;
     padding-right: 10%;
-    color: whitesmoke;
+    color: var(--font-color);
+}
+
+.courses-section h1{
+    font-size: 3rem;
+    margin-bottom: 20px;
 }
 
 .courses-section h2{
@@ -121,7 +115,8 @@
     align-items: center;
     height: 100%;
     width: 100%;
-    background-color: rgba(255, 255, 255, 0.01);
+    background-color: rgba(255, 255, 255, 0.01) !important;
+    color: var(--font-color) !important;
 }
 
 .modal-content img {

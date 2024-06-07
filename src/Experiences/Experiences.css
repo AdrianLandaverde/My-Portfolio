@@ -1,17 +1,7 @@
-@font-face {
-    font-family: 'Cooper Hewitt';
-    src: url('../assets/fonts/cooper-hewitt.light.otf') format('opentype');
-}
-
-@font-face {
-    font-family: 'Pine Forest';
-    src: url('../assets/fonts/Pine Forest.otf') format('opentype');
-}
-
 .experience-item {
     border-radius: 10px;
     margin-bottom: 10px;
-    color: whitesmoke;
+    color: var(--font-color-inv);
 }
 
 .experience-header {
@@ -26,6 +16,7 @@
 
 .experience-item .accordion-button .experience-header {
     border-bottom: none;
+    color: var(--font-color-inv);
 }
 
 .experience-item{
@@ -36,6 +27,7 @@
 .accordion-button{
     padding: 20px;
     border-radius: 10px;
+    color: var(--font-color-inv);
 }
 
 .experience-body {
@@ -69,7 +61,7 @@
 
 .experience-header .accordion-button.accordion-button:not(.collapsed) {
     background-color: var(--secondary-color); /* Change to your preferred color */
-    color: whitesmoke; /* Change to your preferred color */
+    color: var(--font-color-inv);
 }
 
 .accordion-button{
@@ -81,26 +73,31 @@
 }
 
 .experiences-section {
-    background-color: #100d36;
+    background-color: var(--background-color);
     padding-top: 20px;
     padding-left: 10%;
     padding-right: 10%;
     padding-bottom: 20px;
     width: 100vw;
-    color: whitesmoke;
-    font-family: 'Cooper Hewitt', sans-serif;
+    color: var(--font-color);
+}
+
+.experiences-section h1{
+    font-size: 3rem;
+    margin-bottom: 20px;
+
 }
 
 .centered-title {
     text-align: center;
-    font-family: 'Pine Forest', sans-serif;
     font-size: 4em;
 }
 
 .experience-item .accordion-button {
     background-color: inherit;
-    color: inherit;
+    color: var(--font-color-inv);
     border-color: inherit;
+
 }
 
 .experience-item .accordion-button:focus,
@@ -141,12 +138,12 @@
 }
 
 .experience-location a {
-    color: inherit;
+    color: var(--font-color-inv);
     text-decoration: none;
 }
 
 .experience-location a:hover {
-    color: var(--secondary-color);
+    color: var(--tertiary-color);
     text-decoration: none;
 }
 
@@ -171,6 +168,9 @@
     border: none;
     border-radius: 10px;
     padding: 5px 10px;
-    color: whitesmoke;
-    font-family: 'Cooper Hewitt', sans-serif;
+    color: var(--font-color-inv);
+}
+
+.experience-skills button:hover{
+    background-color: var(--tertiary-color);
 }

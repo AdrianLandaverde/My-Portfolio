@@ -1,21 +1,10 @@
-@font-face {
-    font-family: 'Cooper Hewitt';
-    src: url('../assets/fonts/cooper-hewitt.light.otf') format('opentype');
-}
-
-@font-face {
-    font-family: 'Pine Forest';
-    src: url('../assets/fonts/Pine Forest.otf') format('opentype');
-}
-
 .achievements-section {
-    font-family: 'Cooper Hewitt', sans-serif;
     background-color: var(--background-color);
     padding-top: 20px;
     padding-left: 10%;
     padding-right: 10%;
     padding-bottom: 20px;
-    color: whitesmoke;
+    color: var(--font-color);
 }
 
 .my-masonry-grid {
@@ -40,7 +29,7 @@
 
 .image-container {
     position: relative;
-    border: 2px solid var(--primary-color);
+    border: 2px solid var(--background-color);
     border-radius: 10px;
 }
 

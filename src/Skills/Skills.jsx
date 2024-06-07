@@ -20,7 +20,7 @@ function Skills() {
 
     return (
         <div className="Skills-section">
-            <h1 className="centered-title">SKILLS</h1>
+            <h1 className="centered-title">Skills</h1>
             <div className="skills">
                 <div className="top-skills row flex-column flex-md-row">
                     <Skill
