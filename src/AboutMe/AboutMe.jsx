@@ -43,7 +43,7 @@ function AboutMe() {
                 <a href="src/assets/docs/adrian_cv.pdf" download className='cv-download-button'>Download CV</a>
             </div>
             <div className='about-me-image'>
-                <img src="src/assets/images/about-me/adrian.JPG" alt="Adrian's Profile" />
+                <img src="public/images/about-me/adrian.JPG" alt="Adrian's Profile" />
                 <div className='quote'>
                     <p>"The obstacle is the Way." - Ryan Holiday</p>
                 </div>

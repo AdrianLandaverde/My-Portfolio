@@ -47,7 +47,7 @@ function Experiences() {
             location: "Estado de México, México",
             url: "https://tec.mx/",
             skills: ["Mathematics", "Statistics", "Data Science" ,"Machine Learning", "HeroX", "EGS", "Spartan Race", "Hackathons", "Swimming", "Hiking", "Athletics"],
-            imageUrl: "src/assets/images/experiences/tec-de-monterrey.png",
+            imageUrl: "public/images/experiences/tec-de-monterrey.png",
             icon: <FaGraduationCap />
         },
 
@@ -59,7 +59,7 @@ function Experiences() {
             location: "Mexico City, Mexico",
             url: "https://arena-analytics.com/",
             skills: ["Time Series", "Machine Learning", "Data Analytics", "Dashboards", "Azure Synape"],
-            imageUrl: "src/assets/images/experiences/arena.png",
+            imageUrl: "public/images/experiences/arena.png",
             icon: <FaBriefcase />
         },
         
@@ -72,7 +72,7 @@ function Experiences() {
             location: "Boston, USA",
             url: "https://www.bu.edu/",
             skills: ["Reinforcement Learning", "Applied ML", "Environmental Analysis", "Hiking", "Swimming", "Cycling", "Hackathons"],
-            imageUrl: "src/assets/images/experiences/bu.png",
+            imageUrl: "public/images/experiences/bu.png",
             icon: <FaGraduationCap />
         },
 
@@ -84,7 +84,7 @@ function Experiences() {
             location: "Mexico City, México",
             url: "https://dive.ai/",
             skills: ["Natural Language Processing", "Data Engineering", "AWS", "Docker", "Machine Learning"],
-            imageUrl: "src/assets/images/experiences/deep_dive.png",
+            imageUrl: "public/images/experiences/deep_dive.png",
             icon: <FaBriefcase />
         },
 
@@ -96,7 +96,7 @@ function Experiences() {
             location: "Mexico City, México",
             url: "https://www.sas.com/es_mx/home.html",
             skills: ["SAS Programming", "SAS Viya", "Computer Vision", "Face Recognition"],
-            imageUrl: "src/assets/images/experiences/sas.png",
+            imageUrl: "public/images/experiences/sas.png",
             icon : <FaBriefcase />
         },
 
