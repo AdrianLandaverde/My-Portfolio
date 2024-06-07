@@ -4,18 +4,18 @@ import './Achievements.css';
 
 function Achievements() {
     const images = [
-    { src: "public/images/achievements/boston_hacks.jpg", title: "Boston Hacks", alt: "Achivement Image"  },
-    { src: "public/images/achievements/spartan_ultra.jpg", title: "Spartan Ultra", alt: "Achivement Image"  },
-    { src: "public/images/achievements/hack_mit.jpg", title: "Hack MIT", alt: "Achivement Image"  },
-    { src: "public/images/achievements/trifecta2021.jpg", title: "Trifecta Weekend 2021", alt: "Achivement Image"  },     
-    { src: "public/images/achievements/sas_intern.jpg", title: "SAS Internship", alt: "Achivement Image"  },
-    { src: "public/images/achievements/safe_roads.jpg", title: "Safe Roads", alt: "Achivement Image"  },
-    { src: "public/images/achievements/crystal.jpg", title: "Crystal Systems Course", alt: "Achivement Image"  },
-    { src: "public/images/achievements/tree_hacks.jpg", title: "Tree Hacks", alt: "Achivement Image"  },
-    { src: "public/images/achievements/spartan_virtual.jpg", title: "Virtual Spartan Race", alt: "Achivement Image"  },
-    { src: "public/images/achievements/hero_race.jpg", title: "The Hero Race", alt: "Achivement Image"  },
-    { src: "public/images/achievements/10K_Challenge.jpg", title: "10K Challenge", alt: "Achivement Image"  },
-    { src: "public/images/achievements/TriatlonEkzerco.jpeg", title: "Triatlon Ekzerco", alt: "Achivement Image"  }
+    { src: "images/achievements/boston_hacks.jpg", title: "Boston Hacks", alt: "Achivement Image"  },
+    { src: "images/achievements/spartan_ultra.jpg", title: "Spartan Ultra", alt: "Achivement Image"  },
+    { src: "images/achievements/hack_mit.jpg", title: "Hack MIT", alt: "Achivement Image"  },
+    { src: "images/achievements/trifecta2021.jpg", title: "Trifecta Weekend 2021", alt: "Achivement Image"  },     
+    { src: "images/achievements/sas_intern.jpg", title: "SAS Internship", alt: "Achivement Image"  },
+    { src: "images/achievements/safe_roads.jpg", title: "Safe Roads", alt: "Achivement Image"  },
+    { src: "images/achievements/crystal.jpg", title: "Crystal Systems Course", alt: "Achivement Image"  },
+    { src: "images/achievements/tree_hacks.jpg", title: "Tree Hacks", alt: "Achivement Image"  },
+    { src: "images/achievements/spartan_virtual.jpg", title: "Virtual Spartan Race", alt: "Achivement Image"  },
+    { src: "images/achievements/hero_race.jpg", title: "The Hero Race", alt: "Achivement Image"  },
+    { src: "images/achievements/10K_Challenge.jpg", title: "10K Challenge", alt: "Achivement Image"  },
+    { src: "images/achievements/TriatlonEkzerco.jpeg", title: "Triatlon Ekzerco", alt: "Achivement Image"  }
     ,
 ];
 
