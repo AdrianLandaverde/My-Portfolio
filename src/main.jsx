@@ -7,6 +7,7 @@ import AboutMe from './AboutMe/AboutMe.jsx';
 import Projects from './Projects/Projects.jsx';
 import Courses from './Courses/Courses.jsx';
 import Achievements from './Achievements/Achievements.jsx';
+import { Link } from 'react-scroll';
 import './main.css';
 
 function App() {
@@ -21,19 +22,29 @@ function App() {
   }, []);
 
   return (
-    <React.StrictMode>
-      {showSplash ? <Hero /> : (
-        <>
-          <AboutMe />
-          <Experiences />
-          <Skills />
-          <Projects/>
-          <Courses />
-          <Achievements />
-        </>
-      )}
-    </React.StrictMode>
-  );
+  <React.StrictMode>
+    {!showSplash && (
+      <nav>
+        <Link activeClass="active" to="about-me-section" spy={true} smooth={true} offset={-70} duration={500}>About Me</Link>
+        <Link activeClass="active" to="experiences-section" spy={true} smooth={true} offset={-70} duration={500}>Experiences</Link>
+        <Link activeClass="active" to="Skills-section" spy={true} smooth={true} offset={-70} duration={500}>Skills</Link>
+        <Link activeClass="active" to="projects-section" spy={true} smooth={true} offset={-70} duration={500}>Projects</Link>
+        <Link activeClass="active" to="courses-section" spy={true} smooth={true} offset={-70} duration={500}>Courses</Link>
+        <Link activeClass="active" to="achievements-section" spy={true} smooth={true} offset={-70} duration={500}>Achievements</Link>
+      </nav>
+    )}
+    {showSplash ? <Hero /> : (
+      <>
+        <AboutMe id="about-me-section" />
+        <Experiences id="experiences-section" />
+        <Skills id="Skills-section" />
+        <Projects id="projects-section" />
+        <Courses id="courses-section" />
+        <Achievements id="achievements-section" />
+      </>
+    )}
+  </React.StrictMode>
+);
 }
 
 ReactDOM.createRoot(document.getElementById('root')).render(<App />);
