@@ -137,3 +137,49 @@
     right: 10px;
     bottom: -10px;
 }
+
+/* Existing CSS */
+
+/* ... */
+
+/* Responsive CSS */
+
+@media screen and (max-width: 768px) {
+    .about-me-section {
+        margin-top:70px;
+        padding-top: 5%;
+        padding-left: 5%;
+        padding-right: 5%;
+        flex-direction: column;
+    }
+
+    .about-me-image, .about-me-content {
+        margin: 0 auto;
+        flex: 0;
+    }
+
+    .about-me-image img {
+        width: 200px;
+        height: 200px;
+    }
+
+    .about-me-title {
+        font-size: 2em;
+    }
+
+    .about-me-subtitle {
+        font-size: 1.2em;
+    }
+
+    .about-me-features {
+        font-size: 0.8em;
+    }
+
+    .social-icon {
+        font-size: 2em;
+    }
+
+    .quote::before, .quote::after {
+        font-size: 2em;
+    }
+}
