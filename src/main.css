@@ -1,4 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@font-face {
+    font-family: 'Nature Impact';
+    src: url('../assets/fonts/nature-impact-demo.regular.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Pine Forest';
+    src: url('../assets/fonts/Pine Forest.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Cooper Hewitt';
+    src: url('../assets/fonts/cooper-hewitt.light.otf') format('opentype');
+}
+
 :root {
+    --font-main: 'Nature Impact';
+    --font-titles: 'Poppins';
+    --font-text: 'Cooper Hewitt', sans-serif;
     --background-color: #ffffff;
     --primary-color: #78C1F3;
     --secondary-color: #9BE8D8;
@@ -7,9 +27,20 @@
     --font-color: #333;
 }
 
-body{
+body {
     background-color: var(--background-color);
     margin: 0 0;
     padding: 0;
     overflow-x: hidden;
+}
+
+*:not(h1) {
+    font-family: var(--font-text);
+    color: var(--font-color);
+}
+
+h1{
+    font-family: var(--font-titles);
+    font-size: 4rem;
+    text-align: center;
 }

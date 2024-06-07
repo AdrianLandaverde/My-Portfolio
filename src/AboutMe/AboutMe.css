@@ -1,13 +1,3 @@
-@font-face {
-    font-family: 'Cooper Hewitt';
-    src: url('../assets/fonts/cooper-hewitt.light.otf') format('opentype');
-}
-
-@font-face {
-    font-family: 'Nature Impact';
-    src: url('../assets/fonts/nature-impact-demo.regular.otf') format('opentype');
-}
-
 .about-me-container {
     background-color: var(--background-color);
     color: var(--font-color);
@@ -16,7 +6,11 @@
     padding-right: 10%;
     padding-bottom: 20px;
     height: 100vh;
-    font-family: 'Cooper Hewitt', sans-serif;
+}
+
+.about-me-container h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
 }
 
 .about-me-content {
