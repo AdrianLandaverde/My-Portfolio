@@ -247,7 +247,7 @@ function Courses() {
                 isOpen={modalIsOpen}
                 onRequestClose={closeModal}
                 contentLabel="Image Modal"
-                className="modal-content"
+                className="modal-course"
             >
                 <img src={selectedImage} alt="Selected" />
                 <button onClick={closeModal} className='close-button'>X</button>

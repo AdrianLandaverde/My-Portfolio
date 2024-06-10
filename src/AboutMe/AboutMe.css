@@ -5,7 +5,7 @@
     padding-left: 10%;
     padding-right: 10%;
     padding-bottom: 20px;
-    height: 100vh;
+    min-height: 100vh;
     animation: fadeIn 2s ease-in-out;
 }
 
@@ -90,6 +90,10 @@
 
 #iconKaggle:hover {
     color: #20BEFF;
+}
+
+#iconMedium:hover {
+    color: #12100E;
 }
 
 .cv-download-button {

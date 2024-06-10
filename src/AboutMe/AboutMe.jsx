@@ -1,7 +1,8 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './AboutMe.css';
-import { FaLinkedin, FaInstagram, FaKaggle, FaEnvelope, FaGithub } from 'react-icons/fa';
+import { FaLinkedin, FaInstagram, FaKaggle, FaEnvelope, FaGithub} from 'react-icons/fa';
+import { FaMedium } from "react-icons/fa6";
 import { SiDevpost } from 'react-icons/si';
 
 
@@ -39,8 +40,11 @@ function AboutMe() {
                     <a href="https://www.kaggle.com/adrinlandaverdenava" target="_blank" rel="noopener noreferrer">
                         <FaKaggle className='social-icon' id='iconKaggle' />
                     </a>
+                    <a href="https://medium.com/@adrianlandaverden" target="_blank" rel="noopener noreferrer">
+                        <FaMedium className='social-icon' id='iconMedium' />
+                    </a>
                 </div>
-                <a href="src/assets/docs/adrian_cv.pdf" download className='cv-download-button'>Download CV</a>
+                <a href="adrian_cv.pdf" download className='cv-download-button'>Download CV</a>
             </div>
             <div className='about-me-image'>
                 <img src="images/about-me/adrian.JPG" alt="Adrian's Profile" />

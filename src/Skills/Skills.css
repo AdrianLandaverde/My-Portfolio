@@ -30,6 +30,13 @@
     border-radius: 10px; /* This will make the corners rounded */
     padding: 20px; /* Add some space between the border and the content */
     margin-bottom: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+    border-color: var(--primary-color);
+}
+
+.skill-type-icon{
+    color: var(--primary-color);
 }
 
 .Skills-section {

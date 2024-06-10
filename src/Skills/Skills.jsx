@@ -8,7 +8,7 @@ import { faBrain, faCode, faDatabase, faRobot } from '@fortawesome/free-solid-sv
 function Skill({ title, description, software, icon }) {
     return (
         <div className="skill">
-            <h3><FontAwesomeIcon icon={icon} /> {title}</h3>
+            <h3><FontAwesomeIcon icon={icon} color='#06283D'/>{title}</h3>
             <p>{description}</p>
             {software}
         </div>
