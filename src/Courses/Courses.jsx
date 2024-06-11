@@ -154,12 +154,12 @@ function Courses() {
     function openModal(image) {
         setSelectedImage(image);
         setIsOpen(true);
-        document.body.style.overflow = 'hidden'; // Prevent scrolling when modal is open
+        document.body.classList.add('body-lock-scroll');
     }
 
     function closeModal() {
         setIsOpen(false);
-        document.body.style.overflow = 'unset'; // Allow scrolling when modal is closed
+        document.body.classList.remove('body-lock-scroll');
     }
 
     const handleMouseEnter = (sliderRef) => {

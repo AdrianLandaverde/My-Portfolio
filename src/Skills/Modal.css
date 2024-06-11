@@ -28,13 +28,14 @@
     align-items: center;
 }
 
-.close-button {
+.close-button-skill {
     position: absolute;
     right: 20px;
     top: 20px;
     border: none;
     background: transparent;
     color: var(--font-color-inv);
+    font-size: 1.5em;
 }
 
 .body-lock-scroll {
