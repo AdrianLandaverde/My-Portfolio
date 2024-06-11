@@ -11,29 +11,27 @@ function ProjectCard({ project }) {
                 <Card.Img variant="top" src={project.image} />
                 <Card.Text className="project-description">{project.description}</Card.Text>
             </div>
-            <Card.Body>
-                <Card.Title className="text-center mb-0 pb-0">{project.title}</Card.Title>
-            </Card.Body>
         </Card>
     );
 }
 
 function Projects() {
     const projects = [
-        { title: 'Carbon Cut', image: 'https://d112y698adiu2z.cloudfront.net/photos/production/software_photos/002/773/817/datas/gallery.jpg', description: 'Your one-stop shop for climate action and impact', link: 'https://devpost.com/software/reflexion-buddy' },
-        { title: 'Sustainable AF', image: 'https://d112y698adiu2z.cloudfront.net/photos/production/software_photos/002/675/822/datas/gallery.jpg', description: 'Your one-stop guide to eco-conscious living. Track your carbon footprint, discover sustainable dining options, and optimize solar panel placement', link: 'https://devpost.com/software/reflexion-buddy' },
-        { title: 'Crop n Soil', image: 'https://d112y698adiu2z.cloudfront.net/photos/production/software_thumbnail_photos/002/630/294/datas/medium.png', description: "Empowering Tomorrow's Farms: Smart, Sustainable, Strong.", link: 'https://devpost.com/software/reflexion-buddy' },
-        { title: 'Reflexion Buddy', image: 'https://d112y698adiu2z.cloudfront.net/photos/production/software_photos/002/594/427/datas/gallery.jpg', description: 'Your AI Journaling Companion for Better Mental Health, Improved Life and Success', link: 'https://devpost.com/software/reflexion-buddy' },
-        { title: 'DIF Violence Analysis', image: 'https://www.difatizapan.gob.mx/images/dae21140-87ad-4b93-a6a1-50a300632bbe1.png', description: 'Analysis of domestic violence reports for the Atizapan’s DIF', link: 'https://devpost.com/software/reflexion-buddy' },
-        { title: 'Diabetes Classification', image: 'https://wallpaperaccess.com/full/3702028.jpg', description: 'Exploratory Data Analysis and Machhine Learning classification of people with Diabetes', link: 'https://devpost.com/software/reflexion-buddy' },
-        { title: 'Coppel Route Optimization', image: 'https://smartroutes.io/blogs/content/images/size/w2000/2022/03/958CAB42-7C1A-448D-B645-D3F5B480AF85-min.jpeg', description: 'Use of algorithms such as TSP, VRP and CVRP in order to optimize the routes of deliveries', link: 'https://devpost.com/software/reflexion-buddy' },
-        { title: 'SAS Safe Roads', image: 'http://yesofcorsa.com/wp-content/uploads/2017/04/Toronto-Wallpaper-For-Desktop.jpg', description: 'Finding most dangerous places to drive and likelihood of collisions in Toronto', link: 'https://devpost.com/software/reflexion-buddy' },
-        { title: 'QS World Ranking Analysis', image: 'https://mma.prnewswire.com/media/1503777/QS_World_University_Rankings_Logo.jpg?p=facebook', description: 'Analysis of the most important variables in the QS World Ranking', link: 'https://devpost.com/software/reflexion-buddy' },
-        { title: 'Hello World Mexican Sign Language', image: 'https://i.redd.it/eifjszyoa2f31.jpg', description: 'Analysis of syntax of translation from Spanish to LSM with NLP.', link: 'https://devpost.com/software/reflexion-buddy' },
-        { title: 'Access to health in State of Mexico', image: 'https://wallpaperaccess.com/full/5600428.jpg', description: 'Multidimensional clustering using K-means to identify the level of access to health.', link: 'https://devpost.com/software/reflexion-buddy' },
-        { title: 'Process Optimization for Coca Cola Femsa', image: 'https://coca-colafemsa.com/wp-content/uploads/2019/12/coca-cola-femsa-YP-luz-portada.jpg', description: 'Analysis of machines and prediction of energy per day', link: 'https://devpost.com/software/reflexion-buddy' },
-        { title: 'Mario Kart 8 combination optimization', image: 'https://www.wallpaperflare.com/static/462/71/622/mario-kart-8-deluxe-poster-4k-mario-wallpaper.jpg', description: 'Dashboard with the best combinations of characters', link: 'https://devpost.com/software/reflexion-buddy' },
-        { title: 'Analysis of genes that cause colon cancer', image: 'https://wallpaperaccess.com/full/3787567.jpg', description: 'Analysis of gene expression in young and adult people with colon cancer in stage II and III', link: 'https://devpost.com/software/reflexion-buddy' },
+        { title: 'Bank Analysis', image: 'projects/banking_analysis.PNG', description: 'Dashboard, classification and interpolation of credits', link: 'https://adrianlandaverde.github.io/Proyecto-Integrador-IDM/' },
+        { title: 'Water-AI', image: 'projects/water_ai.PNG', description: 'Analysis of water droughts, contamination and floods', link: 'https://adrianlandaverde.github.io/water-ai/' },
+        { title: 'Carbon Cut', image: 'projects/carbon_cut.PNG', description: 'Your one-stop shop for climate action and impact', link: 'https://devpost.com/software/carbon-cut-3d5k2g' },
+        { title: 'Move out with us', image: 'projects/move_out_with_us.PNG', description: 'Analyze Fannie Mae data to determine your loan eligibility and provide tailored advice', link: 'https://devpost.com/software/fannie-mate'},
+        { title: 'Sustainable AF', image: 'projects/sustainable_af.PNG', description: 'Your one-stop guide to eco-conscious living. Track your carbon footprint, discover sustainable dining options, and optimize solar panel placement', link: 'https://devpost.com/software/sustainable-af' },
+        { title: 'Crop n Soil', image: 'projects/crop_n_soil.PNG', description: "Empowering Tomorrow's Farms: Smart, Sustainable, Strong.", link: 'https://devpost.com/software/cropnsoil' },
+        { title: 'Reflexion Buddy', image: 'projects/reflexion_buddy.PNG', description: 'Your AI Journaling Companion for Better Mental Health, Improved Life and Success', link: 'https://devpost.com/software/reflexion-buddy' },
+        { title: 'DIF Violence Analysis', image: 'projects/dif_violence.PNG', description: 'Analysis of domestic violence reports for the Atizapan’s DIF', link: 'https://dashbaord-dif-atizapan.onrender.com' },
+        { title: 'Diabetes Classification', image: 'projects/diabetes_classification.PNG', description: 'Exploratory Data Analysis and Machhine Learning classification of people with Diabetes', link: 'https://diabetes-classification.onrender.com' },
+        { title: 'Coppel Route Optimization', image: 'projects/coppel_route.PNG', description: 'Use of algorithms such as TSP, VRP and CVRP in order to optimize the routes of deliveries', link: 'https://ma2001b-202-4.netlify.app/' },
+        { title: 'SAS Safe Roads', image: 'projects/safe_roads.PNG', description: 'Finding most dangerous places to drive and likelihood of collisions in Toronto', link: 'https://youtu.be/3Cey1PUhGBg' },
+        { title: 'Hello World Mexican Sign Language', image: 'projects/mexican_sign_language.PNG', description: 'Analysis of syntax of translation from Spanish to LSM with NLP.', link: 'https://devpost.com/software/reflexion-buddy' },
+        { title: 'Access to health in State of Mexico', image: 'projects/access_to_health.PNG', description: 'Multidimensional clustering using K-means to identify the level of access to health.', link: 'https://github.com/AdrianLandaverde/10K_Challenge' },
+        { title: 'Mario Kart 8 combination optimization', image: 'projects/mario_kart.PNG', description: 'Dashboard with the best combinations of characters', link: 'https://github.com/AdrianLandaverde/10K_Challenge' },
+        { title: 'Analysis of genes that cause colon cancer', image: 'projects/colon_cancer.PNG', description: 'Analysis of gene expression in young and adult people with colon cancer in stage II and III', link: 'https://github.com/AdrianLandaverde/Genes_Cancer_de_Colon' },
     ];
 
     const breakpointColumnsObj = {
