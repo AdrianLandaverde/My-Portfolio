@@ -26,7 +26,7 @@ function Skills() {
                     <Skill
                         title="Data Analyst"
                         description="Proficient in Python and R for data analysis, with strong statistical skills. Experienced in creating interactive dashboards and reports. Skilled in data management and visualization using various tools including Excel. Strong command of SQL for database querying."
-                        software={[<Icons.PythonIcon />, <Icons.PandasIcon />, <Icons.PlotlyIcon />, <Icons.RIcon />, <Icons.SasIcon />, <Icons.PowerBiIcon />, <Icons.TableuIcon />, <Icons.ExcelIcon />, <Icons.SqlIcon />,]}
+                        software={[<Icons.PythonIcon />, <Icons.PandasIcon />, <Icons.PlotlyIcon />, <Icons.FoliumIcon/> ,<Icons.RIcon />, <Icons.SasIcon />, <Icons.PowerBiIcon />, <Icons.TableuIcon />, <Icons.ExcelIcon />, <Icons.SqlIcon />,]}
                         icon={faDatabase}
                         className="col-12 col-md-4"
                     />
