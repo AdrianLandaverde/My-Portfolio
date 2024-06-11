@@ -117,6 +117,7 @@
     width: 100%;
     background-color: rgba(255, 255, 255, 0.01) !important;
     color: var(--font-color) !important;
+    z-index: 1000;
 }
 
 .modal-course img {
@@ -127,9 +128,10 @@
 
 .close-button {
     position: absolute;
-    top: 10px;
+    top: 70px;
     right: 10px;
     border: none;
     background: none;
     font-size: 1.5em;
+    color: var(--font-color);
 }

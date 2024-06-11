@@ -154,12 +154,13 @@ function Courses() {
     function openModal(image) {
         setSelectedImage(image);
         setIsOpen(true);
+        document.body.style.overflow = 'hidden'; // Prevent scrolling when modal is open
     }
 
     function closeModal() {
         setIsOpen(false);
+        document.body.style.overflow = 'unset'; // Allow scrolling when modal is closed
     }
-
 
     const handleMouseEnter = (sliderRef) => {
         if (sliderRef.current) {
@@ -209,7 +210,7 @@ function Courses() {
                 </div>
             </div>
 
-            
+
 
             <h2>AI Engineer</h2>
             <div className="slider">
