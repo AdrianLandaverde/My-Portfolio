@@ -51,7 +51,7 @@
 
 .experience-header .accordion-button.accordion-button:not(.collapsed) {
     background-color: var(--secondary-color); /* Change to your preferred color */
-    color: var(--font-color-inv);
+    color: var(--font-color-inv) !important;
 }
 
 .accordion-button{
@@ -89,6 +89,15 @@
     border-color: inherit;
 
 }
+
+.accordion-button::after {
+    font-display: block;
+    content: '\2193';
+    color: var(--font-color-inv);
+    float: right;
+    color: var(--font-color-inv);
+}
+
 
 .experience-item .accordion-button:focus,
 .experience-item .accordion-button:active {
