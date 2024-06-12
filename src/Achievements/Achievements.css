@@ -43,6 +43,7 @@
     opacity: 0;
     transition: opacity 0.3s ease;
     border-radius: 10px;
+    cursor: pointer;
 }
 
 .image-container:hover .image-overlay {
@@ -58,9 +59,78 @@
     font-size: 20px;
 }
 
+.modal-achievements {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 60%; /* Adjust width as needed */
+    height: auto; /* Adjust height as needed */
+    background-color: var(--background-color);
+    border-radius: 10px;
+    padding: 20px; /* Adjust padding as needed */
+}
+
+.modal-content-achievements {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    background-color: var(--background-color);
+    border-radius: 10px;
+}
+
+.modal-image-achievements {
+    width: 50%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.modal-text-achievements {
+    width: 50%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content-achievements {
+    display: flex;
+}
+
+.close-button {
+    color: var(--font-color); /* White text */
+    text-align: center; /* Centered text */
+    text-decoration: none; /* Remove underline */
+    display: inline-block;
+    cursor: pointer; /* Mouse pointer on hover */
+    border: none; /* Remove border */
+    position: absolute; /* Positioning relative to the nearest positioned ancestor */
+    top: 10px; /* Position from the top */
+    right: 10px; /* Position from the right */
+}
+
 @media screen and (max-width: 768px) {
     .achievements-section {
         padding-left: 5%;
         padding-right: 5%;
+    }
+
+    .modal-achievements {
+        width: 80%;
+    }
+
+    .modal-content-achievements {
+        flex-direction: column;
+    }
+
+    .modal-image-achievements {
+        width: 60%;
+        height: auto;
+    }
+
+    .modal-text-achievements {
+        width: 100%;
     }
 }
