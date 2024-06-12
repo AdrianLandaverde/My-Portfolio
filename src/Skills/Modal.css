@@ -41,3 +41,18 @@
 .body-lock-scroll {
     overflow: hidden;
 }
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+    .modal-content-wrapper {
+        width: 80%;
+        max-width: none;
+        padding: 0px;
+    }
+
+    .close-button-skill {
+        right: 10px;
+        top: 10px;
+        font-size: 1.2em;
+    }
+}

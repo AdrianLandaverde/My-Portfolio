@@ -45,6 +45,10 @@ h1{
     text-align: center;
 }
 
+nav button {
+    display: none;
+}
+
 nav {
     position: fixed;
     top: 0;
@@ -69,4 +73,30 @@ nav a.active {
 
 nav a:hover {
     cursor: pointer;
+}
+
+/* Responsive styles */
+
+@media screen and (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        padding: 0;
+    }
+
+    nav a {
+        padding: 1em 0;
+    }
+
+    nav a.active {
+        border-bottom: none;
+    }
+
+    nav a:hover {
+        border-bottom: none;
+    }
+
+    nav button {
+        display: block;
+        align-self: flex-start;
+    }
 }

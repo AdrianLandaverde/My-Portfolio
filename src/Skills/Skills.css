@@ -57,3 +57,20 @@
     text-align: center;
 }
 
+@media screen and (max-width: 768px) {
+    .top-skills, .bottom-skills {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .skill {
+        width: 100%;
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+    .Skills-section{
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+}

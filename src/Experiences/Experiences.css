@@ -49,16 +49,6 @@
     width: 100%;
 }
 
-@media (min-width: 768px) {
-    .experience-body {
-        flex-direction: row;
-    }
-
-    .experience-left, .experience-right {
-        width: auto;
-    }
-}
-
 .experience-header .accordion-button.accordion-button:not(.collapsed) {
     background-color: var(--secondary-color); /* Change to your preferred color */
     color: var(--font-color-inv);
@@ -75,8 +65,8 @@
 .experiences-section {
     background-color: var(--background-color);
     padding-top: 20px;
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-left: 5%;
+    padding-right: 5%;
     padding-bottom: 20px;
     width: 100%;
     color: var(--font-color);
@@ -173,4 +163,19 @@
 
 .experience-skills button:hover{
     background-color: var(--tertiary-color);
+}
+
+@media (min-width: 768px) {
+    .experience-body {
+        flex-direction: row;
+    }
+
+    .experiences-section{
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
+    .experience-left, .experience-right {
+        width: auto;
+    }
 }
