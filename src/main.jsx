@@ -16,7 +16,7 @@ function App() {
   useEffect(() => {
     const timer = setTimeout(() => {
       setShowSplash(false);
-    }, 8000); // Change this to control the duration of the splash screen
+    }, 5000); // Change this to control the duration of the splash screen
 
     return () => clearTimeout(timer); // This will clear the timer when the component unmounts
   }, []);
