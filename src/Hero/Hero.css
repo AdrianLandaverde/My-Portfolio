@@ -46,13 +46,13 @@
   font-family: var(--font-main);
   color: whitesmoke;
   margin-bottom: 50px;
-  font-size: 10rem;
+  font-size: 10rem !important;
   animation: fadeIn 2s ease-out forwards;
 }
 
 .hero h2 {
   color: whitesmoke;
-  font-size: 3rem;
+  font-size: 3rem !important;
   animation: fadeIn 3s ease-out forwards;
   animation-delay: 2s; /* Delay for h2 */
   font-family: var(--font-titles);
@@ -60,7 +60,7 @@
 
 .hero h3 {
   color: whitesmoke;
-  font-size: 2rem;
+  font-size: 2rem !important;
   animation: fadeIn 5s ease-out forwards;
   animation-delay: 3s; /* Delay for h3 */
   font-family: var(--font-titles);
@@ -68,19 +68,19 @@
 
 /* Responsive text */
 @media (max-width: 1200px) {
-  .hero h1 { font-size: 7rem; }
-  .hero h2 { font-size: 2rem; }
-  .hero h3 { font-size: 1.2rem; }
+  .hero h1 { font-size: 7rem !important; }
+  .hero h2 { font-size: 2rem !important; }
+  .hero h3 { font-size: 1.2rem !important; }
 }
 
 @media (max-width: 800px) {
-  .hero h1 { font-size: 4rem; }
-  .hero h2 { font-size: 1.8rem; }
-  .hero h3 { font-size: 1.1rem; }
+  .hero h1 { font-size: 4rem !important; }
+  .hero h2 { font-size: 1.8rem !important; }
+  .hero h3 { font-size: 1.1rem !important; }
 }
 
 @media (max-width: 500px) {
-  .hero h1 { font-size: 3rem; }
-  .hero h2 { font-size: 1.5rem; }
-  .hero h3 { font-size: 1rem; }
+  .hero h1 { font-size: 3rem !important; }
+  .hero h2 { font-size: 1.5rem !important; }
+  .hero h3 { font-size: 1rem !important; }
 }
