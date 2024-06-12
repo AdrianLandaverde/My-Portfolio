@@ -81,6 +81,7 @@ nav a:hover {
     nav {
         flex-direction: column;
         padding: 0;
+        padding-left: 1em;
     }
 
     nav a {
@@ -98,5 +99,6 @@ nav a:hover {
     nav button {
         display: block;
         align-self: flex-start;
+        margin: 1em;
     }
 }

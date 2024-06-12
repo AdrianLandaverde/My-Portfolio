@@ -21,7 +21,7 @@ function App() {
     return () => clearTimeout(timer); // This will clear the timer when the component unmounts
   }, []);
 
-  const [navOpen, setNavOpen] = useState(false);
+  const [navOpen, setNavOpen] = useState(window.innerWidth > 768);
 
 
   return (
