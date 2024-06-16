@@ -49,7 +49,7 @@ function AboutMe() {
             <div className='about-me-image'>
                 <img src="images/about-me/adrian.JPG" alt="Adrian's Profile" />
                 <div className='quote'>
-                    <p>"The obstacle is the Way." - Ryan Holiday</p>
+                    <p>"The obstacle is the Way." - Marcus Aurelius</p>
                 </div>
             </div>
         </section>
